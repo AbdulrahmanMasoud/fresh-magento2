@@ -327,6 +327,12 @@ return [
         'Magento_Wishlist' => 1,
         'Magento_WishlistAnalytics' => 1,
         'Magento_WishlistGraphQl' => 1,
+        'Hyva_Email' => 1,
+        'Hyva_GraphqlTokens' => 1,
+        'Hyva_GraphqlViewModel' => 1,
+        'Hyva_OrderCancellationWebapi' => 1,
+        'Hyva_Theme' => 1,
+        'Hyva_ThemeFallback' => 1,
         'PayPal_Braintree' => 1,
         'PayPal_BraintreeGraphQl' => 1,
         'Temando_ShippingRemover' => 1
