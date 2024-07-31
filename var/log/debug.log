@@ -1939,3 +1939,147 @@ Trace: <pre>#1 Magento\CatalogInventory\Model\StockRegistry->updateStockItemBySk
 </pre> [] []
 [2024-07-31T08:32:42.269159+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
 [2024-07-31T08:32:42.270480+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-07-31T08:36:04.488426+00:00] main.ERROR: Could not validate a connection to the OpenSearch. No alive nodes found in your cluster
+#0 /var/www/magento2/setup/src/Magento/Setup/Model/SearchConfig.php(69): Magento\Setup\Model\SearchConfig->validateSearchEngine()
+#1 /var/www/magento2/setup/src/Magento/Setup/Model/Installer.php(1210): Magento\Setup\Model\SearchConfig->saveConfiguration()
+#2 [internal function]: Magento\Setup\Model\Installer->installSearchConfiguration()
+#3 /var/www/magento2/setup/src/Magento/Setup/Model/Installer.php(388): call_user_func_array()
+#4 /var/www/magento2/setup/src/Magento/Setup/Console/Command/InstallCommand.php(238): Magento\Setup\Model\Installer->install()
+#5 /var/www/magento2/vendor/symfony/console/Command/Command.php(298): Magento\Setup\Console\Command\InstallCommand->execute()
+#6 /var/www/magento2/vendor/symfony/console/Application.php(1040): Symfony\Component\Console\Command\Command->run()
+#7 /var/www/magento2/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand()
+#8 /var/www/magento2/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#9 /var/www/magento2/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#10 /var/www/magento2/bin/magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2024-07-31T08:36:08.198680+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2024-07-31T08:36:08.216005+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2024-07-31T08:36:22.691135+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["config_scopes","CONFIG"],"mode":"matchingTag"}} []
+[2024-07-31T08:36:23.305978+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:36:23.309528+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:36:23.312983+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:36:23.316438+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE_77","FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:36:23.342781+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE_77","FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:36:23.394094+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"request_declaration"}} []
+[2024-07-31T08:36:23.462469+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"request_declaration"}} []
+[2024-07-31T08:36:23.482636+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:36:23.487868+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:36:23.491343+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:36:23.493826+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE_78","FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:36:23.501188+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE_78","FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:36:23.505806+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"request_declaration"}} []
+[2024-07-31T08:36:23.511646+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"request_declaration"}} []
+[2024-07-31T08:36:23.529590+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:36:23.531712+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:36:23.535826+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:36:23.540032+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE_98","FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:36:23.547736+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE_98","FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:36:23.551327+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"request_declaration"}} []
+[2024-07-31T08:36:23.559633+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"request_declaration"}} []
+[2024-07-31T08:36:23.575478+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:36:23.577753+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:36:23.579993+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:36:23.582811+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE_123","FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:36:23.590943+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE_123","FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:36:23.593469+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"request_declaration"}} []
+[2024-07-31T08:36:23.598401+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"request_declaration"}} []
+[2024-07-31T08:36:23.614493+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:36:23.616791+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:36:23.620614+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:36:23.623335+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE_81","FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:36:23.627062+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE_81","FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:36:23.629602+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"request_declaration"}} []
+[2024-07-31T08:36:23.637208+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"request_declaration"}} []
+[2024-07-31T08:36:23.658381+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["config_scopes","CONFIG"],"mode":"matchingTag"}} []
+[2024-07-31T08:36:52.113064+00:00] main.ERROR: There are no commands defined in the "config:store" namespace.
+
+Did you mean one of these?
+    config
+    config:sensitive
+    setup:store-config
+#0 /var/www/magento2/vendor/symfony/console/Application.php(701): Symfony\Component\Console\Application->findNamespace()
+#1 /var/www/magento2/vendor/symfony/console/Application.php(259): Symfony\Component\Console\Application->find()
+#2 /var/www/magento2/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#3 /var/www/magento2/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#4 /var/www/magento2/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2024-07-31T08:37:07.470688+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["config_scopes","CONFIG"],"mode":"matchingTag"}} []
+[2024-07-31T08:37:07.757304+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:37:07.759548+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:37:07.761888+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:37:07.764406+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE_77","FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:37:07.774143+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE_77","FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:37:07.781241+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"request_declaration"}} []
+[2024-07-31T08:37:07.790324+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"request_declaration"}} []
+[2024-07-31T08:37:07.802242+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:37:07.804143+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:37:07.806201+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:37:07.808076+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE_78","FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:37:07.811193+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE_78","FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:37:07.813238+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"request_declaration"}} []
+[2024-07-31T08:37:07.818627+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"request_declaration"}} []
+[2024-07-31T08:37:07.830966+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:37:07.833105+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:37:07.835094+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:37:07.837003+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE_98","FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:37:07.840151+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE_98","FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:37:07.842410+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"request_declaration"}} []
+[2024-07-31T08:37:07.846971+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"request_declaration"}} []
+[2024-07-31T08:37:07.858862+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:37:07.860753+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:37:07.862811+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:37:07.864681+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE_123","FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:37:07.868082+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE_123","FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:37:07.870315+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"request_declaration"}} []
+[2024-07-31T08:37:07.874913+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"request_declaration"}} []
+[2024-07-31T08:37:07.887446+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:37:07.889674+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:37:07.891760+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:37:07.893736+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE_81","FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:37:07.896881+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE_81","FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:37:07.899268+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"request_declaration"}} []
+[2024-07-31T08:37:07.903855+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"request_declaration"}} []
+[2024-07-31T08:37:07.915652+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["config_scopes","CONFIG"],"mode":"matchingTag"}} []
+[2024-07-31T08:40:36.650484+00:00] main.ERROR: Command "catalog/search/elasticsearch8_server_port" is not defined.
+#0 /var/www/magento2/vendor/symfony/console/Application.php(259): Symfony\Component\Console\Application->find()
+#1 /var/www/magento2/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#2 /var/www/magento2/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#3 /var/www/magento2/bin/magento(23): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2024-07-31T08:40:50.560694+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["config_scopes","CONFIG"],"mode":"matchingTag"}} []
+[2024-07-31T08:40:50.829807+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:40:50.831665+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:40:50.833685+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:40:50.835724+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE_77","FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:40:50.842917+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE_77","FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:40:50.849079+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"request_declaration"}} []
+[2024-07-31T08:40:50.858114+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"request_declaration"}} []
+[2024-07-31T08:40:50.869666+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:40:50.871652+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:40:50.873871+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:40:50.875731+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE_78","FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:40:50.878720+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE_78","FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:40:50.880847+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"request_declaration"}} []
+[2024-07-31T08:40:50.885740+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"request_declaration"}} []
+[2024-07-31T08:40:50.899453+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:40:50.902118+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:40:50.904511+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:40:50.906855+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE_98","FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:40:50.910696+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE_98","FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:40:50.912790+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"request_declaration"}} []
+[2024-07-31T08:40:50.917192+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"request_declaration"}} []
+[2024-07-31T08:40:50.928288+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:40:50.930238+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:40:50.932314+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:40:50.934385+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE_123","FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:40:50.937494+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE_123","FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:40:50.939545+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"request_declaration"}} []
+[2024-07-31T08:40:50.944021+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"request_declaration"}} []
+[2024-07-31T08:40:50.954599+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:40:50.957023+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:40:50.959375+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:40:50.961345+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE_81","FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:40:50.964483+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE_81","FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:40:50.966696+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"request_declaration"}} []
+[2024-07-31T08:40:50.971277+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"request_declaration"}} []
+[2024-07-31T08:40:50.982986+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["config_scopes","CONFIG"],"mode":"matchingTag"}} []
