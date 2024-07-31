@@ -968,3 +968,974 @@ Class Magento\\Framework\\App\\ResourceConnection\\Proxy generation error: The r
 [2024-07-30T09:28:37.517778+00:00] main.INFO: Broken reference: the 'recaptcha.newsletter' element cannot be added as child to 'page.recaptcha.loader.form_ids', because the latter doesn't exist [] []
 [2024-07-30T09:28:37.519363+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
 [2024-07-30T09:28:37.521912+00:00] main.INFO: Broken reference: the 'cms_footer_links_container' tries to reorder itself towards 'footer_links', but their parents are different: 'footer' and '' respectively. [] []
+[2024-07-30T09:59:36.064480+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CONFIG"],"mode":"matchingTag"}} []
+[2024-07-30T09:59:36.069353+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["LAYOUT_GENERAL_CACHE_TAG"],"mode":"matchingTag"}} []
+[2024-07-30T09:59:36.073478+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["BLOCK_HTML"],"mode":"matchingTag"}} []
+[2024-07-30T09:59:36.075867+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COLLECTION_DATA"],"mode":"matchingTag"}} []
+[2024-07-30T09:59:36.079170+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["REFLECTION"],"mode":"matchingTag"}} []
+[2024-07-30T09:59:36.083152+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["DB_DDL"],"mode":"matchingTag"}} []
+[2024-07-30T09:59:36.087986+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COMPILED_CONFIG"],"mode":"matchingTag"}} []
+[2024-07-30T09:59:36.091886+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV"],"mode":"matchingTag"}} []
+[2024-07-30T09:59:36.095760+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CUSTOMER_NOTIFICATION"],"mode":"matchingTag"}} []
+[2024-07-30T09:59:36.100948+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION"],"mode":"matchingTag"}} []
+[2024-07-30T09:59:36.105986+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION_API_CONFIG"],"mode":"matchingTag"}} []
+[2024-07-30T09:59:36.177316+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["FPC"],"mode":"matchingTag"}} []
+[2024-07-30T09:59:36.181697+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["WEBSERVICE"],"mode":"matchingTag"}} []
+[2024-07-30T09:59:36.186778+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["TRANSLATE"],"mode":"matchingTag"}} []
+[2024-07-30T09:59:49.431088+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CONFIG"],"mode":"matchingTag"}} []
+[2024-07-30T09:59:49.556630+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CONFIG"],"mode":"matchingTag"}} []
+[2024-07-30T09:59:49.560546+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["LAYOUT_GENERAL_CACHE_TAG"],"mode":"matchingTag"}} []
+[2024-07-30T09:59:49.564078+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["BLOCK_HTML"],"mode":"matchingTag"}} []
+[2024-07-30T09:59:49.566477+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COLLECTION_DATA"],"mode":"matchingTag"}} []
+[2024-07-30T09:59:49.568672+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["REFLECTION"],"mode":"matchingTag"}} []
+[2024-07-30T09:59:49.570936+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["DB_DDL"],"mode":"matchingTag"}} []
+[2024-07-30T09:59:49.573334+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COMPILED_CONFIG"],"mode":"matchingTag"}} []
+[2024-07-30T09:59:49.575910+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV"],"mode":"matchingTag"}} []
+[2024-07-30T09:59:49.578541+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CUSTOMER_NOTIFICATION"],"mode":"matchingTag"}} []
+[2024-07-30T09:59:49.580919+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION"],"mode":"matchingTag"}} []
+[2024-07-30T09:59:49.583717+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION_API_CONFIG"],"mode":"matchingTag"}} []
+[2024-07-30T09:59:49.586982+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["FPC"],"mode":"matchingTag"}} []
+[2024-07-30T09:59:49.589729+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["WEBSERVICE"],"mode":"matchingTag"}} []
+[2024-07-30T09:59:49.592560+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["TRANSLATE"],"mode":"matchingTag"}} []
+[2024-07-30T10:00:06.426415+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["LAYOUT_GENERAL_CACHE_TAG"],"mode":"matchingTag"}} []
+[2024-07-30T10:00:06.428638+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["BLOCK_HTML"],"mode":"matchingTag"}} []
+[2024-07-30T10:00:06.431133+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["FPC"],"mode":"matchingTag"}} []
+[2024-07-30T10:00:09.664398+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2024-07-30T10:00:09.678838+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2024-07-30T10:01:43.070607+00:00] main.NOTICE: magento_import returns empty result by path css/source/_email.less for theme Hyva/reset [] []
+[2024-07-30T10:01:44.828629+00:00] main.NOTICE: magento_import returns empty result by path css/source/_email.less for theme Hyva/reset [] []
+[2024-07-30T10:02:42.824890+00:00] main.NOTICE: magento_import returns empty result by path css/source/_email.less for theme Hyva/default [] []
+[2024-07-30T10:02:44.284815+00:00] main.NOTICE: magento_import returns empty result by path css/source/_email.less for theme Hyva/default [] []
+[2024-07-30T10:02:49.244934+00:00] main.NOTICE: magento_import returns empty result by path css/source/_email.less for theme Hyva/masoud [] []
+[2024-07-30T10:02:50.801407+00:00] main.NOTICE: magento_import returns empty result by path css/source/_email.less for theme Hyva/masoud [] []
+[2024-07-30T10:12:39.805402+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["FPC"],"mode":"matchingTag"}} []
+[2024-07-30T16:11:26.474296+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2024-07-30T16:11:26.479381+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2024-07-30T16:43:24.180471+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-30T16:43:24.190036+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-07-30T16:43:24.192655+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-07-30T16:43:24.195507+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-07-30T16:43:24.198325+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-30T16:43:24.201541+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2024-07-30T16:43:24.202983+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-30T16:43:24.204859+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-30T16:43:24.206714+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-30T16:43:24.209295+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2024-07-30T16:43:24.211900+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2024-07-30T16:43:24.214554+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2024-07-30T16:43:24.217259+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2024-07-30T16:43:24.220005+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2024-07-30T16:43:24.222608+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2024-07-30T16:43:24.225419+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2024-07-30T16:43:24.228786+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-30T16:43:24.231397+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-30T16:43:24.234168+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-07-30T16:43:24.236769+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2024-07-30T16:43:24.239334+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-07-30T16:43:24.242188+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2024-07-30T16:43:24.244868+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2024-07-30T16:43:24.247445+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-07-30T16:43:24.250119+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2024-07-30T16:43:24.252820+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2024-07-30T16:43:24.528321+00:00] main.ERROR: The path "/var/www/magento2/pub/static/adminhtml/Magento/backend/en_US/requirejs-config.js" is not writable. [] []
+[2024-07-30T16:43:24.967605+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-07-30T16:43:24.969306+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-07-30T16:43:24.972542+00:00] main.INFO: Broken reference: the 'recaptcha.customer_login' element cannot be added as child to 'page.recaptcha.loader.form_ids', because the latter doesn't exist [] []
+[2024-07-30T16:43:24.975268+00:00] main.INFO: Broken reference: the 'recaptcha.newsletter' element cannot be added as child to 'page.recaptcha.loader.form_ids', because the latter doesn't exist [] []
+[2024-07-30T16:43:24.978099+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-07-30T16:43:24.981365+00:00] main.INFO: Broken reference: the 'cms_footer_links_container' tries to reorder itself towards 'footer_links', but their parents are different: 'footer' and '' respectively. [] []
+[2024-07-30T16:44:39.567085+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-30T16:44:39.569732+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-07-30T16:44:39.572028+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-07-30T16:44:39.574200+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-07-30T16:44:39.576590+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-30T16:44:39.578880+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2024-07-30T16:44:39.580791+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-30T16:44:39.583380+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-30T16:44:39.585300+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-30T16:44:39.587397+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2024-07-30T16:44:39.589825+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2024-07-30T16:44:39.592579+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2024-07-30T16:44:39.595273+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2024-07-30T16:44:39.597682+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2024-07-30T16:44:39.599579+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2024-07-30T16:44:39.601601+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2024-07-30T16:44:39.604391+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-30T16:44:39.606718+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-30T16:44:39.609746+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-07-30T16:44:39.611880+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2024-07-30T16:44:39.613634+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-07-30T16:44:39.615249+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2024-07-30T16:44:39.617003+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2024-07-30T16:44:39.619277+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-07-30T16:44:39.621662+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2024-07-30T16:44:39.623788+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2024-07-30T16:44:48.004458+00:00] main.DEBUG: URI '/admin/admin/cache/index/key/8805ab602969dedb97d2bc9ed9cc06cad87829955a7dbbfa0ca84abec920e747/'' cannot be accessed with POST method (Magento\Backend\Controller\Adminhtml\Cache\Index) [] []
+[2024-07-30T16:44:48.014212+00:00] main.DEBUG: Request validation failed for action "Magento\Backend\Controller\Adminhtml\Cache\Index\Interceptor" {"exception":"[object] (Magento\\Framework\\App\\Request\\InvalidRequestException(code: 0): Invalid request received at /var/www/magento2/vendor/magento/framework/App/Request/HttpMethodValidator.php:69)"} []
+[2024-07-30T16:44:51.288821+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://magento2.local/admin/admin/cache/index/key/8805ab602969dedb97d2bc9ed9cc06cad87829955a7dbbfa0ca84abec920e747/","invalidateInfo":{"tags":["BACKEND_MAINMENU"],"mode":"matchingAnyTag"}} []
+[2024-07-30T16:44:52.699652+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://magento2.local/admin/admin/cache/index/key/8805ab602969dedb97d2bc9ed9cc06cad87829955a7dbbfa0ca84abec920e747/","invalidateInfo":{"tags":["PB_EDITOR_CONFIG","CONFIG"],"mode":"matchingTag"}} []
+[2024-07-30T16:44:52.750539+00:00] main.INFO: Item Magento_Backend::system_currency was removed [] []
+[2024-07-30T16:44:52.799340+00:00] main.INFO: Add of item with id Magento_Config::system_config was processed [] []
+[2024-07-30T16:44:52.802244+00:00] main.INFO: Add of item with id Magento_AdminNotification::system_adminnotification was processed [] []
+[2024-07-30T16:44:52.805296+00:00] main.INFO: Add of item with id Magento_Theme::design_config was processed [] []
+[2024-07-30T16:44:52.808097+00:00] main.INFO: Add of item with id Magento_Theme::system_design_theme was processed [] []
+[2024-07-30T16:44:52.811093+00:00] main.INFO: Add of item with id Magento_Backend::system_design_schedule was processed [] []
+[2024-07-30T16:44:52.812845+00:00] main.INFO: Add of item with id Magento_Backend::system_store was processed [] []
+[2024-07-30T16:44:52.814800+00:00] main.INFO: Add of item with id Magento_Backend::dashboard was processed [] []
+[2024-07-30T16:44:52.816460+00:00] main.INFO: Add of item with id Magento_Backend::system was processed [] []
+[2024-07-30T16:44:52.819205+00:00] main.INFO: Add of item with id Magento_Backend::system_tools was processed [] []
+[2024-07-30T16:44:52.821184+00:00] main.INFO: Add of item with id Magento_Backend::system_design was processed [] []
+[2024-07-30T16:44:52.822849+00:00] main.INFO: Add of item with id Magento_Backend::system_convert was processed [] []
+[2024-07-30T16:44:52.825382+00:00] main.INFO: Add of item with id Magento_Backend::system_cache was processed [] []
+[2024-07-30T16:44:52.827509+00:00] main.INFO: Add of item with id Magento_Backend::marketing was processed [] []
+[2024-07-30T16:44:52.829630+00:00] main.INFO: Add of item with id Magento_Backend::marketing_communications was processed [] []
+[2024-07-30T16:44:52.831529+00:00] main.INFO: Add of item with id Magento_Backend::marketing_seo was processed [] []
+[2024-07-30T16:44:52.833439+00:00] main.INFO: Add of item with id Magento_Backend::marketing_user_content was processed [] []
+[2024-07-30T16:44:52.835467+00:00] main.INFO: Add of item with id Magento_Backend::content was processed [] []
+[2024-07-30T16:44:52.838567+00:00] main.INFO: Add of item with id Magento_Backend::content_elements was processed [] []
+[2024-07-30T16:44:52.841605+00:00] main.INFO: Add of item with id Magento_Backend::stores was processed [] []
+[2024-07-30T16:44:52.844129+00:00] main.INFO: Add of item with id Magento_Backend::stores_settings was processed [] []
+[2024-07-30T16:44:52.846398+00:00] main.INFO: Add of item with id Magento_Backend::stores_attributes was processed [] []
+[2024-07-30T16:44:52.848812+00:00] main.INFO: Add of item with id Magento_Backend::other_settings was processed [] []
+[2024-07-30T16:44:52.850576+00:00] main.INFO: Add of item with id Magento_Backend::system_other_settings was processed [] []
+[2024-07-30T16:44:52.853238+00:00] main.INFO: Add of item with id Magento_User::system_acl was processed [] []
+[2024-07-30T16:44:52.855613+00:00] main.INFO: Add of item with id Magento_User::system_acl_users was processed [] []
+[2024-07-30T16:44:52.857754+00:00] main.INFO: Add of item with id Magento_User::system_acl_roles was processed [] []
+[2024-07-30T16:44:52.860027+00:00] main.INFO: Add of item with id Magento_User::system_acl_locks was processed [] []
+[2024-07-30T16:44:52.862323+00:00] main.INFO: Add of item with id Magento_Customer::customer was processed [] []
+[2024-07-30T16:44:52.864725+00:00] main.INFO: Add of item with id Magento_Customer::customer_manage was processed [] []
+[2024-07-30T16:44:52.866742+00:00] main.INFO: Add of item with id Magento_Customer::customer_online was processed [] []
+[2024-07-30T16:44:52.869131+00:00] main.INFO: Add of item with id Magento_Customer::customer_group was processed [] []
+[2024-07-30T16:44:52.871563+00:00] main.INFO: Add of item with id Magento_Backup::system_tools_backup was processed [] []
+[2024-07-30T16:44:52.873696+00:00] main.INFO: Add of item with id Magento_Indexer::system_index was processed [] []
+[2024-07-30T16:44:52.875986+00:00] main.INFO: Add of item with id Magento_Variable::system_variable was processed [] []
+[2024-07-30T16:44:52.878238+00:00] main.INFO: Add of item with id Magento_Cms::cms_page was processed [] []
+[2024-07-30T16:44:52.880540+00:00] main.INFO: Add of item with id Magento_Cms::cms_block was processed [] []
+[2024-07-30T16:44:52.882731+00:00] main.INFO: Add of item with id Magento_Search::search_terms was processed [] []
+[2024-07-30T16:44:52.884971+00:00] main.INFO: Add of item with id Magento_Search::search_synonyms was processed [] []
+[2024-07-30T16:44:52.887354+00:00] main.INFO: Add of item with id Magento_Catalog::catalog was processed [] []
+[2024-07-30T16:44:52.889874+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_products was processed [] []
+[2024-07-30T16:44:52.892296+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_categories was processed [] []
+[2024-07-30T16:44:52.894605+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_attributes_attributes was processed [] []
+[2024-07-30T16:44:52.896733+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_attributes_sets was processed [] []
+[2024-07-30T16:44:52.899110+00:00] main.INFO: Add of item with id Magento_Catalog::inventory was processed [] []
+[2024-07-30T16:44:52.901600+00:00] main.INFO: Add of item with id Magento_CatalogRule::promo was processed [] []
+[2024-07-30T16:44:52.904301+00:00] main.INFO: Add of item with id Magento_CatalogRule::promo_catalog was processed [] []
+[2024-07-30T16:44:52.906937+00:00] main.INFO: Add of item with id Magento_MediaGalleryUi::media was processed [] []
+[2024-07-30T16:44:52.909207+00:00] main.INFO: Add of item with id Magento_MediaGalleryUi::media_gallery was processed [] []
+[2024-07-30T16:44:52.911596+00:00] main.INFO: Add of item with id Magento_Integration::system_extensions was processed [] []
+[2024-07-30T16:44:52.913758+00:00] main.INFO: Add of item with id Magento_Integration::system_integrations was processed [] []
+[2024-07-30T16:44:52.915689+00:00] main.INFO: Add of item with id Magento_Sales::sales was processed [] []
+[2024-07-30T16:44:52.918098+00:00] main.INFO: Add of item with id Magento_Sales::sales_operation was processed [] []
+[2024-07-30T16:44:52.920618+00:00] main.INFO: Add of item with id Magento_Sales::sales_order was processed [] []
+[2024-07-30T16:44:52.923206+00:00] main.INFO: Add of item with id Magento_Sales::sales_invoice was processed [] []
+[2024-07-30T16:44:52.925532+00:00] main.INFO: Add of item with id Magento_Sales::sales_shipment was processed [] []
+[2024-07-30T16:44:52.927817+00:00] main.INFO: Add of item with id Magento_Sales::sales_creditmemo was processed [] []
+[2024-07-30T16:44:52.930049+00:00] main.INFO: Add of item with id Magento_Sales::sales_transactions was processed [] []
+[2024-07-30T16:44:52.932540+00:00] main.INFO: Add of item with id Magento_Sales::system_order_statuses was processed [] []
+[2024-07-30T16:44:52.934814+00:00] main.INFO: Add of item with id Magento_Widget::cms_widget_instance was processed [] []
+[2024-07-30T16:44:52.936633+00:00] main.INFO: Add of item with id Magento_Analytics::business_intelligence was processed [] []
+[2024-07-30T16:44:52.937872+00:00] main.INFO: Add of item with id Magento_Analytics::advanced_reporting was processed [] []
+[2024-07-30T16:44:52.939839+00:00] main.INFO: Add of item with id Magento_Analytics::bi_essentials was processed [] []
+[2024-07-30T16:44:52.942269+00:00] main.INFO: Add of item with id Magento_Downloadable::report_products_downloads was processed [] []
+[2024-07-30T16:44:52.944682+00:00] main.INFO: Add of item with id Magento_ImportExport::system_convert_import was processed [] []
+[2024-07-30T16:44:52.947064+00:00] main.INFO: Add of item with id Magento_ImportExport::system_convert_export was processed [] []
+[2024-07-30T16:44:52.949220+00:00] main.INFO: Add of item with id Magento_ImportExport::system_convert_history was processed [] []
+[2024-07-30T16:44:52.951194+00:00] main.INFO: Add of item with id Magento_Email::template was processed [] []
+[2024-07-30T16:44:52.953522+00:00] main.INFO: Add of item with id Magento_EncryptionKey::system_crypt_key was processed [] []
+[2024-07-30T16:44:52.955783+00:00] main.INFO: Add of item with id Magento_InventoryAdminUi::inventory was processed [] []
+[2024-07-30T16:44:52.958168+00:00] main.INFO: Add of item with id Magento_InventoryAdminUi::source was processed [] []
+[2024-07-30T16:44:52.960541+00:00] main.INFO: Add of item with id Magento_InventoryAdminUi::stock was processed [] []
+[2024-07-30T16:44:52.962889+00:00] main.INFO: Add of item with id Magento_Reports::report was processed [] []
+[2024-07-30T16:44:52.964941+00:00] main.INFO: Add of item with id Magento_Reports::report_marketing was processed [] []
+[2024-07-30T16:44:52.966942+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot was processed [] []
+[2024-07-30T16:44:52.968871+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_sales was processed [] []
+[2024-07-30T16:44:52.971165+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_tax was processed [] []
+[2024-07-30T16:44:52.973479+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_invoiced was processed [] []
+[2024-07-30T16:44:52.975726+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_shipping was processed [] []
+[2024-07-30T16:44:52.978200+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_refunded was processed [] []
+[2024-07-30T16:44:52.980346+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_coupons was processed [] []
+[2024-07-30T16:44:52.982797+00:00] main.INFO: Add of item with id Magento_Reports::report_shopcart_product was processed [] []
+[2024-07-30T16:44:52.985097+00:00] main.INFO: Add of item with id Magento_Reports::report_shopcart_abandoned was processed [] []
+[2024-07-30T16:44:52.987252+00:00] main.INFO: Add of item with id Magento_Reports::report_products was processed [] []
+[2024-07-30T16:44:52.989215+00:00] main.INFO: Add of item with id Magento_Reports::report_products_bestsellers was processed [] []
+[2024-07-30T16:44:52.991003+00:00] main.INFO: Add of item with id Magento_Reports::report_products_sold was processed [] []
+[2024-07-30T16:44:52.992875+00:00] main.INFO: Add of item with id Magento_Reports::report_products_viewed was processed [] []
+[2024-07-30T16:44:52.994874+00:00] main.INFO: Add of item with id Magento_Reports::report_products_lowstock was processed [] []
+[2024-07-30T16:44:52.996977+00:00] main.INFO: Add of item with id Magento_Reports::report_customers was processed [] []
+[2024-07-30T16:44:52.999237+00:00] main.INFO: Add of item with id Magento_Reports::report_customers_accounts was processed [] []
+[2024-07-30T16:44:53.001448+00:00] main.INFO: Add of item with id Magento_Reports::report_customers_totals was processed [] []
+[2024-07-30T16:44:53.003751+00:00] main.INFO: Add of item with id Magento_Reports::report_customers_orders was processed [] []
+[2024-07-30T16:44:53.006256+00:00] main.INFO: Add of item with id Magento_Reports::report_statistics was processed [] []
+[2024-07-30T16:44:53.008849+00:00] main.INFO: Add of item with id Magento_Reports::report_statistics_refresh was processed [] []
+[2024-07-30T16:44:53.011337+00:00] main.INFO: Add of item with id Magento_Search::report_search_term was processed [] []
+[2024-07-30T16:44:53.013444+00:00] main.INFO: Add of item with id Magento_LoginAsCustomerLog::login_log was processed [] []
+[2024-07-30T16:44:53.015786+00:00] main.INFO: Add of item with id Magento_Marketplace::partners was processed [] []
+[2024-07-30T16:44:53.018315+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_template was processed [] []
+[2024-07-30T16:44:53.020790+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_queue was processed [] []
+[2024-07-30T16:44:53.022991+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_subscriber was processed [] []
+[2024-07-30T16:44:53.025533+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_problem was processed [] []
+[2024-07-30T16:44:53.028174+00:00] main.INFO: Add of item with id Magento_SalesRule::promo_quote was processed [] []
+[2024-07-30T16:44:53.031677+00:00] main.INFO: Add of item with id Magento_Sitemap::catalog_sitemap was processed [] []
+[2024-07-30T16:44:53.035644+00:00] main.INFO: Add of item with id Magento_PageBuilder::templates was processed [] []
+[2024-07-30T16:44:53.038472+00:00] main.INFO: Add of item with id Magento_Paypal::report_salesroot_paypal_settlement_reports was processed [] []
+[2024-07-30T16:44:53.039662+00:00] main.INFO: Add of item with id Magento_Paypal::paypal_billing_agreement was processed [] []
+[2024-07-30T16:44:53.041359+00:00] main.INFO: Add of item with id Magento_CheckoutAgreements::sales_checkoutagreement was processed [] []
+[2024-07-30T16:44:53.043093+00:00] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_ratings was processed [] []
+[2024-07-30T16:44:53.045029+00:00] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_pending was processed [] []
+[2024-07-30T16:44:53.047086+00:00] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_reviews_all was processed [] []
+[2024-07-30T16:44:53.048998+00:00] main.INFO: Add of item with id Magento_Review::report_review was processed [] []
+[2024-07-30T16:44:53.050712+00:00] main.INFO: Add of item with id Magento_Review::report_review_customer was processed [] []
+[2024-07-30T16:44:53.052452+00:00] main.INFO: Add of item with id Magento_Review::report_review_product was processed [] []
+[2024-07-30T16:44:53.054282+00:00] main.INFO: Add of item with id Magento_UrlRewrite::urlrewrite was processed [] []
+[2024-07-30T16:44:53.056467+00:00] main.INFO: Add of item with id Magento_Tax::sales_tax was processed [] []
+[2024-07-30T16:44:53.058779+00:00] main.INFO: Add of item with id Magento_Tax::sales_tax_rules was processed [] []
+[2024-07-30T16:44:53.061139+00:00] main.INFO: Add of item with id Magento_Tax::sales_tax_rates was processed [] []
+[2024-07-30T16:44:53.063210+00:00] main.INFO: Add of item with id Magento_TaxImportExport::system_convert_tax was processed [] []
+[2024-07-30T16:44:53.065157+00:00] main.INFO: Add of item with id Magento_AsynchronousOperations::system_magento_logging was processed [] []
+[2024-07-30T16:44:53.067112+00:00] main.INFO: Add of item with id Magento_AsynchronousOperations::system_magento_logging_bulk_operations was processed [] []
+[2024-07-30T16:44:53.069216+00:00] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency was processed [] []
+[2024-07-30T16:44:53.071616+00:00] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency_rates was processed [] []
+[2024-07-30T16:44:53.073961+00:00] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency_symbols was processed [] []
+[2024-07-30T16:44:53.076264+00:00] main.INFO: Add of item with id PayPal_Braintree::settlement_report was processed [] []
+[2024-07-30T16:44:53.078571+00:00] main.INFO: Add of item with id PayPal_Braintree::virtual_terminal was processed [] []
+[2024-07-30T16:44:54.819527+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-07-30T17:24:42.261340+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-30T17:24:42.264253+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-07-30T17:24:42.265251+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-07-30T17:24:42.266060+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-07-30T17:24:42.266890+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-30T17:24:42.267822+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2024-07-30T17:24:42.268700+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-30T17:24:42.270177+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-30T17:24:42.271420+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-30T17:24:42.272433+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2024-07-30T17:24:42.273405+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2024-07-30T17:24:42.274528+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2024-07-30T17:24:42.275700+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2024-07-30T17:24:42.277959+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2024-07-30T17:24:42.280560+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2024-07-30T17:24:42.282776+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2024-07-30T17:24:42.284088+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-30T17:24:42.285026+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-30T17:24:42.286108+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-07-30T17:24:42.286984+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2024-07-30T17:24:42.287841+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-07-30T17:24:42.288737+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2024-07-30T17:24:42.289558+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2024-07-30T17:24:42.290412+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-07-30T17:24:42.291271+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2024-07-30T17:24:42.292213+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2024-07-30T18:24:24.305799+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-30T18:24:24.308792+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-07-30T18:24:24.310053+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-07-30T18:24:24.311058+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-07-30T18:24:24.312307+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-30T18:24:24.313367+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2024-07-30T18:24:24.314356+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-30T18:24:24.315484+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-30T18:24:24.316507+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-30T18:24:24.317429+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2024-07-30T18:24:24.318343+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2024-07-30T18:24:24.319285+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2024-07-30T18:24:24.320553+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2024-07-30T18:24:24.322594+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2024-07-30T18:24:24.324210+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2024-07-30T18:24:24.325305+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2024-07-30T18:24:24.326427+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-30T18:24:24.327573+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-30T18:24:24.328658+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-07-30T18:24:24.329514+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2024-07-30T18:24:24.330367+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-07-30T18:24:24.331278+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2024-07-30T18:24:24.332381+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2024-07-30T18:24:24.333447+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-07-30T18:24:24.334447+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2024-07-30T18:24:24.335565+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2024-07-30T18:24:29.609551+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://magento2.local/admin/admin/auth/login/key/af8b052f2cd5c25bc5040751ded54fdd8af1cddfaaf19c8d86af66975adbbf97/","invalidateInfo":{"tags":["BACKEND_MAINMENU"],"mode":"matchingAnyTag"}} []
+[2024-07-30T18:24:29.651700+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://magento2.local/admin/admin/auth/login/key/af8b052f2cd5c25bc5040751ded54fdd8af1cddfaaf19c8d86af66975adbbf97/","invalidateInfo":{"tags":["PB_EDITOR_CONFIG","CONFIG"],"mode":"matchingTag"}} []
+[2024-07-30T18:24:30.602878+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-07-30T18:25:18.420408+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-07-31T08:25:00.903084+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-31T08:25:00.904070+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-07-31T08:25:00.904943+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-07-31T08:25:00.905882+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2024-07-31T08:25:00.906851+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-31T08:25:00.908538+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2024-07-31T08:25:00.910790+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-31T08:25:00.912451+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-31T08:25:00.913589+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-31T08:25:00.914535+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2024-07-31T08:25:00.915433+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2024-07-31T08:25:00.916324+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2024-07-31T08:25:00.917201+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2024-07-31T08:25:00.918093+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2024-07-31T08:25:00.918967+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2024-07-31T08:25:00.919830+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2024-07-31T08:25:00.920955+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-31T08:25:00.921907+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2024-07-31T08:25:00.923216+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-07-31T08:25:00.924499+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2024-07-31T08:25:00.926117+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-07-31T08:25:00.928355+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2024-07-31T08:25:00.929292+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2024-07-31T08:25:00.930262+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2024-07-31T08:25:00.931128+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2024-07-31T08:25:00.932004+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2024-07-31T08:25:04.249216+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://magento2.local/admin/theme/design_config/edit/scope/stores/scope_id/1/key/3ec9b35c7cc70fdcf8f4c18e7c6cda63fafb62c872f1ffe9c08ba113479c4898/","invalidateInfo":{"tags":["BACKEND_MAINMENU"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:25:04.277160+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://magento2.local/admin/theme/design_config/edit/scope/stores/scope_id/1/key/3ec9b35c7cc70fdcf8f4c18e7c6cda63fafb62c872f1ffe9c08ba113479c4898/","invalidateInfo":{"tags":["PB_EDITOR_CONFIG","CONFIG"],"mode":"matchingTag"}} []
+[2024-07-31T08:25:05.296708+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-07-31T08:25:10.225897+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-07-31T08:25:13.885102+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-07-31T08:25:49.882850+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://magento2.local/admin/theme/design_config/save/key/e5d73b981e9281dfaae0391f98512af62b31f9be0b790a1b5201d7a3220d2782/","invalidateInfo":{"tags":["config_scopes","CONFIG"],"mode":"matchingTag"}} []
+[2024-07-31T08:25:50.195479+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-07-31T08:25:53.049347+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-07-31T08:25:54.753065+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http://magento2.local/admin/admin/cache/flushSystem/key/5815938954a6656571f0b2434e33c7361cd7aa1dd49284c81c0f4a58b6b3e601/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2024-07-31T08:25:54.769108+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http://magento2.local/admin/admin/cache/flushSystem/key/5815938954a6656571f0b2434e33c7361cd7aa1dd49284c81c0f4a58b6b3e601/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2024-07-31T08:25:54.772311+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http://magento2.local/admin/admin/cache/flushSystem/key/5815938954a6656571f0b2434e33c7361cd7aa1dd49284c81c0f4a58b6b3e601/","invalidateInfo":{"tags":["FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:25:57.127701+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-07-31T08:25:57.187091+00:00] main.INFO: Item Magento_Backend::system_currency was removed [] []
+[2024-07-31T08:25:57.197054+00:00] main.INFO: Add of item with id Magento_Config::system_config was processed [] []
+[2024-07-31T08:25:57.198143+00:00] main.INFO: Add of item with id Magento_AdminNotification::system_adminnotification was processed [] []
+[2024-07-31T08:25:57.199056+00:00] main.INFO: Add of item with id Magento_Theme::design_config was processed [] []
+[2024-07-31T08:25:57.199931+00:00] main.INFO: Add of item with id Magento_Theme::system_design_theme was processed [] []
+[2024-07-31T08:25:57.200763+00:00] main.INFO: Add of item with id Magento_Backend::system_design_schedule was processed [] []
+[2024-07-31T08:25:57.201711+00:00] main.INFO: Add of item with id Magento_Backend::system_store was processed [] []
+[2024-07-31T08:25:57.202605+00:00] main.INFO: Add of item with id Magento_Backend::dashboard was processed [] []
+[2024-07-31T08:25:57.203435+00:00] main.INFO: Add of item with id Magento_Backend::system was processed [] []
+[2024-07-31T08:25:57.204283+00:00] main.INFO: Add of item with id Magento_Backend::system_tools was processed [] []
+[2024-07-31T08:25:57.205267+00:00] main.INFO: Add of item with id Magento_Backend::system_design was processed [] []
+[2024-07-31T08:25:57.206172+00:00] main.INFO: Add of item with id Magento_Backend::system_convert was processed [] []
+[2024-07-31T08:25:57.207174+00:00] main.INFO: Add of item with id Magento_Backend::system_cache was processed [] []
+[2024-07-31T08:25:57.209528+00:00] main.INFO: Add of item with id Magento_Backend::marketing was processed [] []
+[2024-07-31T08:25:57.210592+00:00] main.INFO: Add of item with id Magento_Backend::marketing_communications was processed [] []
+[2024-07-31T08:25:57.211639+00:00] main.INFO: Add of item with id Magento_Backend::marketing_seo was processed [] []
+[2024-07-31T08:25:57.212568+00:00] main.INFO: Add of item with id Magento_Backend::marketing_user_content was processed [] []
+[2024-07-31T08:25:57.213521+00:00] main.INFO: Add of item with id Magento_Backend::content was processed [] []
+[2024-07-31T08:25:57.214314+00:00] main.INFO: Add of item with id Magento_Backend::content_elements was processed [] []
+[2024-07-31T08:25:57.215100+00:00] main.INFO: Add of item with id Magento_Backend::stores was processed [] []
+[2024-07-31T08:25:57.215914+00:00] main.INFO: Add of item with id Magento_Backend::stores_settings was processed [] []
+[2024-07-31T08:25:57.216703+00:00] main.INFO: Add of item with id Magento_Backend::stores_attributes was processed [] []
+[2024-07-31T08:25:57.217556+00:00] main.INFO: Add of item with id Magento_Backend::other_settings was processed [] []
+[2024-07-31T08:25:57.218397+00:00] main.INFO: Add of item with id Magento_Backend::system_other_settings was processed [] []
+[2024-07-31T08:25:57.219240+00:00] main.INFO: Add of item with id Magento_User::system_acl was processed [] []
+[2024-07-31T08:25:57.220166+00:00] main.INFO: Add of item with id Magento_User::system_acl_users was processed [] []
+[2024-07-31T08:25:57.220991+00:00] main.INFO: Add of item with id Magento_User::system_acl_roles was processed [] []
+[2024-07-31T08:25:57.221902+00:00] main.INFO: Add of item with id Magento_User::system_acl_locks was processed [] []
+[2024-07-31T08:25:57.222729+00:00] main.INFO: Add of item with id Magento_Customer::customer was processed [] []
+[2024-07-31T08:25:57.223714+00:00] main.INFO: Add of item with id Magento_Customer::customer_manage was processed [] []
+[2024-07-31T08:25:57.224894+00:00] main.INFO: Add of item with id Magento_Customer::customer_online was processed [] []
+[2024-07-31T08:25:57.226011+00:00] main.INFO: Add of item with id Magento_Customer::customer_group was processed [] []
+[2024-07-31T08:25:57.227006+00:00] main.INFO: Add of item with id Magento_Backup::system_tools_backup was processed [] []
+[2024-07-31T08:25:57.228126+00:00] main.INFO: Add of item with id Magento_Indexer::system_index was processed [] []
+[2024-07-31T08:25:57.229065+00:00] main.INFO: Add of item with id Magento_Variable::system_variable was processed [] []
+[2024-07-31T08:25:57.230024+00:00] main.INFO: Add of item with id Magento_Cms::cms_page was processed [] []
+[2024-07-31T08:25:57.230819+00:00] main.INFO: Add of item with id Magento_Cms::cms_block was processed [] []
+[2024-07-31T08:25:57.231625+00:00] main.INFO: Add of item with id Magento_Search::search_terms was processed [] []
+[2024-07-31T08:25:57.232463+00:00] main.INFO: Add of item with id Magento_Search::search_synonyms was processed [] []
+[2024-07-31T08:25:57.233253+00:00] main.INFO: Add of item with id Magento_Catalog::catalog was processed [] []
+[2024-07-31T08:25:57.234138+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_products was processed [] []
+[2024-07-31T08:25:57.234930+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_categories was processed [] []
+[2024-07-31T08:25:57.235738+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_attributes_attributes was processed [] []
+[2024-07-31T08:25:57.236525+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_attributes_sets was processed [] []
+[2024-07-31T08:25:57.237331+00:00] main.INFO: Add of item with id Magento_Catalog::inventory was processed [] []
+[2024-07-31T08:25:57.238189+00:00] main.INFO: Add of item with id Magento_CatalogRule::promo was processed [] []
+[2024-07-31T08:25:57.238993+00:00] main.INFO: Add of item with id Magento_CatalogRule::promo_catalog was processed [] []
+[2024-07-31T08:25:57.239790+00:00] main.INFO: Add of item with id Magento_MediaGalleryUi::media was processed [] []
+[2024-07-31T08:25:57.240911+00:00] main.INFO: Add of item with id Magento_MediaGalleryUi::media_gallery was processed [] []
+[2024-07-31T08:25:57.241899+00:00] main.INFO: Add of item with id Magento_Integration::system_extensions was processed [] []
+[2024-07-31T08:25:57.242785+00:00] main.INFO: Add of item with id Magento_Integration::system_integrations was processed [] []
+[2024-07-31T08:25:57.243609+00:00] main.INFO: Add of item with id Magento_Sales::sales was processed [] []
+[2024-07-31T08:25:57.244446+00:00] main.INFO: Add of item with id Magento_Sales::sales_operation was processed [] []
+[2024-07-31T08:25:57.245287+00:00] main.INFO: Add of item with id Magento_Sales::sales_order was processed [] []
+[2024-07-31T08:25:57.246137+00:00] main.INFO: Add of item with id Magento_Sales::sales_invoice was processed [] []
+[2024-07-31T08:25:57.246954+00:00] main.INFO: Add of item with id Magento_Sales::sales_shipment was processed [] []
+[2024-07-31T08:25:57.247772+00:00] main.INFO: Add of item with id Magento_Sales::sales_creditmemo was processed [] []
+[2024-07-31T08:25:57.248587+00:00] main.INFO: Add of item with id Magento_Sales::sales_transactions was processed [] []
+[2024-07-31T08:25:57.249497+00:00] main.INFO: Add of item with id Magento_Sales::system_order_statuses was processed [] []
+[2024-07-31T08:25:57.250331+00:00] main.INFO: Add of item with id Magento_Widget::cms_widget_instance was processed [] []
+[2024-07-31T08:25:57.251168+00:00] main.INFO: Add of item with id Magento_Analytics::business_intelligence was processed [] []
+[2024-07-31T08:25:57.252035+00:00] main.INFO: Add of item with id Magento_Analytics::advanced_reporting was processed [] []
+[2024-07-31T08:25:57.252856+00:00] main.INFO: Add of item with id Magento_Analytics::bi_essentials was processed [] []
+[2024-07-31T08:25:57.253749+00:00] main.INFO: Add of item with id Magento_Downloadable::report_products_downloads was processed [] []
+[2024-07-31T08:25:57.254561+00:00] main.INFO: Add of item with id Magento_ImportExport::system_convert_import was processed [] []
+[2024-07-31T08:25:57.255350+00:00] main.INFO: Add of item with id Magento_ImportExport::system_convert_export was processed [] []
+[2024-07-31T08:25:57.256137+00:00] main.INFO: Add of item with id Magento_ImportExport::system_convert_history was processed [] []
+[2024-07-31T08:25:57.256943+00:00] main.INFO: Add of item with id Magento_Email::template was processed [] []
+[2024-07-31T08:25:57.258009+00:00] main.INFO: Add of item with id Magento_EncryptionKey::system_crypt_key was processed [] []
+[2024-07-31T08:25:57.259932+00:00] main.INFO: Add of item with id Magento_InventoryAdminUi::inventory was processed [] []
+[2024-07-31T08:25:57.261133+00:00] main.INFO: Add of item with id Magento_InventoryAdminUi::source was processed [] []
+[2024-07-31T08:25:57.262123+00:00] main.INFO: Add of item with id Magento_InventoryAdminUi::stock was processed [] []
+[2024-07-31T08:25:57.262936+00:00] main.INFO: Add of item with id Magento_Reports::report was processed [] []
+[2024-07-31T08:25:57.263772+00:00] main.INFO: Add of item with id Magento_Reports::report_marketing was processed [] []
+[2024-07-31T08:25:57.264583+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot was processed [] []
+[2024-07-31T08:25:57.265472+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_sales was processed [] []
+[2024-07-31T08:25:57.266268+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_tax was processed [] []
+[2024-07-31T08:25:57.267056+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_invoiced was processed [] []
+[2024-07-31T08:25:57.267842+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_shipping was processed [] []
+[2024-07-31T08:25:57.268626+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_refunded was processed [] []
+[2024-07-31T08:25:57.269634+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_coupons was processed [] []
+[2024-07-31T08:25:57.270458+00:00] main.INFO: Add of item with id Magento_Reports::report_shopcart_product was processed [] []
+[2024-07-31T08:25:57.271306+00:00] main.INFO: Add of item with id Magento_Reports::report_shopcart_abandoned was processed [] []
+[2024-07-31T08:25:57.272157+00:00] main.INFO: Add of item with id Magento_Reports::report_products was processed [] []
+[2024-07-31T08:25:57.272947+00:00] main.INFO: Add of item with id Magento_Reports::report_products_bestsellers was processed [] []
+[2024-07-31T08:25:57.273887+00:00] main.INFO: Add of item with id Magento_Reports::report_products_sold was processed [] []
+[2024-07-31T08:25:57.274978+00:00] main.INFO: Add of item with id Magento_Reports::report_products_viewed was processed [] []
+[2024-07-31T08:25:57.276797+00:00] main.INFO: Add of item with id Magento_Reports::report_products_lowstock was processed [] []
+[2024-07-31T08:25:57.278209+00:00] main.INFO: Add of item with id Magento_Reports::report_customers was processed [] []
+[2024-07-31T08:25:57.279332+00:00] main.INFO: Add of item with id Magento_Reports::report_customers_accounts was processed [] []
+[2024-07-31T08:25:57.280351+00:00] main.INFO: Add of item with id Magento_Reports::report_customers_totals was processed [] []
+[2024-07-31T08:25:57.281378+00:00] main.INFO: Add of item with id Magento_Reports::report_customers_orders was processed [] []
+[2024-07-31T08:25:57.282404+00:00] main.INFO: Add of item with id Magento_Reports::report_statistics was processed [] []
+[2024-07-31T08:25:57.283387+00:00] main.INFO: Add of item with id Magento_Reports::report_statistics_refresh was processed [] []
+[2024-07-31T08:25:57.284336+00:00] main.INFO: Add of item with id Magento_Search::report_search_term was processed [] []
+[2024-07-31T08:25:57.285287+00:00] main.INFO: Add of item with id Magento_LoginAsCustomerLog::login_log was processed [] []
+[2024-07-31T08:25:57.286287+00:00] main.INFO: Add of item with id Magento_Marketplace::partners was processed [] []
+[2024-07-31T08:25:57.287243+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_template was processed [] []
+[2024-07-31T08:25:57.288189+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_queue was processed [] []
+[2024-07-31T08:25:57.289136+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_subscriber was processed [] []
+[2024-07-31T08:25:57.290166+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_problem was processed [] []
+[2024-07-31T08:25:57.291060+00:00] main.INFO: Add of item with id Magento_SalesRule::promo_quote was processed [] []
+[2024-07-31T08:25:57.292431+00:00] main.INFO: Add of item with id Magento_Sitemap::catalog_sitemap was processed [] []
+[2024-07-31T08:25:57.293326+00:00] main.INFO: Add of item with id Magento_PageBuilder::templates was processed [] []
+[2024-07-31T08:25:57.294433+00:00] main.INFO: Add of item with id Magento_Paypal::report_salesroot_paypal_settlement_reports was processed [] []
+[2024-07-31T08:25:57.295344+00:00] main.INFO: Add of item with id Magento_Paypal::paypal_billing_agreement was processed [] []
+[2024-07-31T08:25:57.296282+00:00] main.INFO: Add of item with id Magento_CheckoutAgreements::sales_checkoutagreement was processed [] []
+[2024-07-31T08:25:57.297234+00:00] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_ratings was processed [] []
+[2024-07-31T08:25:57.298183+00:00] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_pending was processed [] []
+[2024-07-31T08:25:57.299045+00:00] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_reviews_all was processed [] []
+[2024-07-31T08:25:57.299945+00:00] main.INFO: Add of item with id Magento_Review::report_review was processed [] []
+[2024-07-31T08:25:57.300886+00:00] main.INFO: Add of item with id Magento_Review::report_review_customer was processed [] []
+[2024-07-31T08:25:57.301786+00:00] main.INFO: Add of item with id Magento_Review::report_review_product was processed [] []
+[2024-07-31T08:25:57.302630+00:00] main.INFO: Add of item with id Magento_UrlRewrite::urlrewrite was processed [] []
+[2024-07-31T08:25:57.303472+00:00] main.INFO: Add of item with id Magento_Tax::sales_tax was processed [] []
+[2024-07-31T08:25:57.304380+00:00] main.INFO: Add of item with id Magento_Tax::sales_tax_rules was processed [] []
+[2024-07-31T08:25:57.305229+00:00] main.INFO: Add of item with id Magento_Tax::sales_tax_rates was processed [] []
+[2024-07-31T08:25:57.306111+00:00] main.INFO: Add of item with id Magento_TaxImportExport::system_convert_tax was processed [] []
+[2024-07-31T08:25:57.307017+00:00] main.INFO: Add of item with id Magento_AsynchronousOperations::system_magento_logging was processed [] []
+[2024-07-31T08:25:57.308159+00:00] main.INFO: Add of item with id Magento_AsynchronousOperations::system_magento_logging_bulk_operations was processed [] []
+[2024-07-31T08:25:57.310071+00:00] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency was processed [] []
+[2024-07-31T08:25:57.311141+00:00] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency_rates was processed [] []
+[2024-07-31T08:25:57.312129+00:00] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency_symbols was processed [] []
+[2024-07-31T08:25:57.313116+00:00] main.INFO: Add of item with id PayPal_Braintree::settlement_report was processed [] []
+[2024-07-31T08:25:57.314139+00:00] main.INFO: Add of item with id PayPal_Braintree::virtual_terminal was processed [] []
+[2024-07-31T08:26:00.558685+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-07-31T08:26:00.560769+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-07-31T08:26:00.562814+00:00] main.INFO: Broken reference: the 'recaptcha.customer_login' element cannot be added as child to 'page.recaptcha.loader.form_ids', because the latter doesn't exist [] []
+[2024-07-31T08:26:00.564553+00:00] main.INFO: Broken reference: the 'recaptcha.newsletter' element cannot be added as child to 'page.recaptcha.loader.form_ids', because the latter doesn't exist [] []
+[2024-07-31T08:26:00.565641+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-07-31T08:26:00.566739+00:00] main.INFO: Broken reference: the 'cms_footer_links_container' tries to reorder itself towards 'footer_links', but their parents are different: 'footer' and '' respectively. [] []
+[2024-07-31T08:26:10.380910+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-07-31T08:31:19.292481+00:00] main.INFO: Broken reference: the 'recaptcha.customer_login' element cannot be added as child to 'page.recaptcha.loader.form_ids', because the latter doesn't exist [] []
+[2024-07-31T08:31:19.294000+00:00] main.INFO: Broken reference: the 'recaptcha.newsletter' element cannot be added as child to 'page.recaptcha.loader.form_ids', because the latter doesn't exist [] []
+[2024-07-31T08:31:19.296507+00:00] main.INFO: Broken reference: the 'cms_footer_links_container' tries to reorder itself towards 'footer_links', but their parents are different: 'footer' and '' respectively. [] []
+[2024-07-31T08:31:19.495945+00:00] main.CRITICAL: OpenSearch\Common\Exceptions\NoNodesAvailableException: No alive nodes found in your cluster in /var/www/magento2/vendor/opensearch-project/opensearch-php/src/OpenSearch/ConnectionPool/StaticNoPingConnectionPool.php:67
+Stack trace:
+#0 /var/www/magento2/vendor/opensearch-project/opensearch-php/src/OpenSearch/Transport.php(85): OpenSearch\ConnectionPool\StaticNoPingConnectionPool->nextConnection()
+#1 /var/www/magento2/vendor/opensearch-project/opensearch-php/src/OpenSearch/Transport.php(102): OpenSearch\Transport->getConnection()
+#2 /var/www/magento2/vendor/opensearch-project/opensearch-php/src/OpenSearch/Connections/Connection.php(292): OpenSearch\Transport->performRequest()
+#3 /var/www/magento2/vendor/react/promise/src/FulfilledPromise.php(28): OpenSearch\Connections\Connection->OpenSearch\Connections\{closure}()
+#4 /var/www/magento2/vendor/ezimuel/ringphp/src/Future/CompletedFutureValue.php(65): React\Promise\FulfilledPromise->then()
+#5 /var/www/magento2/vendor/ezimuel/ringphp/src/Core.php(341): GuzzleHttp\Ring\Future\CompletedFutureValue->then()
+#6 /var/www/magento2/vendor/opensearch-project/opensearch-php/src/OpenSearch/Connections/Connection.php(340): GuzzleHttp\Ring\Core::proxy()
+#7 /var/www/magento2/vendor/opensearch-project/opensearch-php/src/OpenSearch/Connections/Connection.php(238): OpenSearch\Connections\Connection->OpenSearch\Connections\{closure}()
+#8 /var/www/magento2/vendor/opensearch-project/opensearch-php/src/OpenSearch/Transport.php(113): OpenSearch\Connections\Connection->performRequest()
+#9 /var/www/magento2/vendor/opensearch-project/opensearch-php/src/OpenSearch/Client.php(1389): OpenSearch\Transport->performRequest()
+#10 /var/www/magento2/vendor/opensearch-project/opensearch-php/src/OpenSearch/Client.php(1045): OpenSearch\Client->performRequest()
+#11 /var/www/magento2/vendor/magento/module-open-search/Model/OpenSearch.php(51): OpenSearch\Client->search()
+#12 /var/www/magento2/vendor/magento/module-open-search/SearchAdapter/Adapter.php(111): Magento\OpenSearch\Model\OpenSearch->query()
+#13 /var/www/magento2/vendor/magento/module-search/Model/SearchEngine.php(42): Magento\OpenSearch\SearchAdapter\Adapter->query()
+#14 /var/www/magento2/vendor/magento/framework/Search/Search.php(85): Magento\Search\Model\SearchEngine->search()
+#15 /var/www/magento2/vendor/magento/module-catalog-search/Model/ResourceModel/Fulltext/Collection.php(464): Magento\Framework\Search\Search->search()
+#16 /var/www/magento2/vendor/magento/framework/Data/Collection/AbstractDb.php(343): Magento\CatalogSearch\Model\ResourceModel\Fulltext\Collection->_renderFiltersBefore()
+#17 /var/www/magento2/vendor/magento/module-catalog-search/Model/ResourceModel/Fulltext/Collection.php(582): Magento\Framework\Data\Collection\AbstractDb->_renderFilters()
+#18 /var/www/magento2/vendor/magento/module-eav/Model/Entity/Collection/AbstractCollection.php(929): Magento\CatalogSearch\Model\ResourceModel\Fulltext\Collection->_renderFilters()
+#19 /var/www/magento2/vendor/magento/module-catalog/Model/ResourceModel/Product/Collection.php(801): Magento\Eav\Model\Entity\Collection\AbstractCollection->load()
+#20 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Catalog\Model\ResourceModel\Product\Collection->load()
+#21 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(138): Magento\CatalogSearch\Model\ResourceModel\Fulltext\Collection\Interceptor->___callParent()
+#22 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(153): Magento\CatalogSearch\Model\ResourceModel\Fulltext\Collection\Interceptor->Magento\Framework\Interception\{closure}()
+#23 /var/www/magento2/generated/code/Magento/CatalogSearch/Model/ResourceModel/Fulltext/Collection/Interceptor.php(32): Magento\CatalogSearch\Model\ResourceModel\Fulltext\Collection\Interceptor->___callPlugins()
+#24 /var/www/magento2/vendor/magento/module-catalog/Block/Product/ListProduct.php(199): Magento\CatalogSearch\Model\ResourceModel\Fulltext\Collection\Interceptor->load()
+#25 /var/www/magento2/vendor/magento/framework/View/Element/AbstractBlock.php(1094): Magento\Catalog\Block\Product\ListProduct->_beforeToHtml()
+#26 /var/www/magento2/vendor/magento/framework/View/Element/AbstractBlock.php(1099): Magento\Framework\View\Element\AbstractBlock->Magento\Framework\View\Element\{closure}()
+#27 /var/www/magento2/vendor/magento/framework/View/Element/AbstractBlock.php(660): Magento\Framework\View\Element\AbstractBlock->_loadCache()
+#28 /var/www/magento2/vendor/magento/framework/View/Layout.php(578): Magento\Framework\View\Element\AbstractBlock->toHtml()
+#29 /var/www/magento2/vendor/magento/framework/View/Layout.php(555): Magento\Framework\View\Layout->_renderBlock()
+#30 /var/www/magento2/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout->renderNonCachedElement()
+#31 /var/www/magento2/vendor/magento/framework/View/Element/AbstractBlock.php(507): Magento\Framework\View\Layout->renderElement()
+#32 /var/www/magento2/vendor/magento/module-catalog-search/Block/Result.php(171): Magento\Framework\View\Element\AbstractBlock->getChildHtml()
+#33 /var/www/magento2/vendor/magento/module-catalog-search/view/frontend/templates/result.phtml(13): Magento\CatalogSearch\Block\Result->getProductListHtml()
+#34 /var/www/magento2/vendor/magento/framework/View/TemplateEngine/Php.php(71): include('...')
+#35 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\View\TemplateEngine\Php->render()
+#36 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\View\TemplateEngine\Php\Interceptor->___callParent()
+#37 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\View\TemplateEngine\Php\Interceptor->Magento\Framework\Interception\{closure}()
+#38 /var/www/magento2/generated/code/Magento/Framework/View/TemplateEngine/Php/Interceptor.php(23): Magento\Framework\View\TemplateEngine\Php\Interceptor->___callPlugins()
+#39 /var/www/magento2/vendor/magento/framework/View/Element/Template.php(263): Magento\Framework\View\TemplateEngine\Php\Interceptor->render()
+#40 /var/www/magento2/vendor/magento/framework/View/Element/Template.php(293): Magento\Framework\View\Element\Template->fetchView()
+#41 /var/www/magento2/vendor/magento/framework/View/Element/AbstractBlock.php(1095): Magento\Framework\View\Element\Template->_toHtml()
+#42 /var/www/magento2/vendor/magento/framework/View/Element/AbstractBlock.php(1099): Magento\Framework\View\Element\AbstractBlock->Magento\Framework\View\Element\{closure}()
+#43 /var/www/magento2/vendor/magento/framework/View/Element/AbstractBlock.php(660): Magento\Framework\View\Element\AbstractBlock->_loadCache()
+#44 /var/www/magento2/vendor/magento/framework/View/Layout.php(578): Magento\Framework\View\Element\AbstractBlock->toHtml()
+#45 /var/www/magento2/vendor/magento/framework/View/Layout.php(555): Magento\Framework\View\Layout->_renderBlock()
+#46 /var/www/magento2/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout->renderNonCachedElement()
+#47 /var/www/magento2/vendor/magento/framework/View/Layout.php(606): Magento\Framework\View\Layout->renderElement()
+#48 /var/www/magento2/vendor/magento/framework/View/Layout.php(557): Magento\Framework\View\Layout->_renderContainer()
+#49 /var/www/magento2/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout->renderNonCachedElement()
+#50 /var/www/magento2/vendor/magento/framework/View/Layout.php(606): Magento\Framework\View\Layout->renderElement()
+#51 /var/www/magento2/vendor/magento/framework/View/Layout.php(557): Magento\Framework\View\Layout->_renderContainer()
+#52 /var/www/magento2/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout->renderNonCachedElement()
+#53 /var/www/magento2/vendor/magento/framework/View/Layout.php(606): Magento\Framework\View\Layout->renderElement()
+#54 /var/www/magento2/vendor/magento/framework/View/Layout.php(557): Magento\Framework\View\Layout->_renderContainer()
+#55 /var/www/magento2/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout->renderNonCachedElement()
+#56 /var/www/magento2/vendor/magento/framework/View/Layout.php(606): Magento\Framework\View\Layout->renderElement()
+#57 /var/www/magento2/vendor/magento/framework/View/Layout.php(557): Magento\Framework\View\Layout->_renderContainer()
+#58 /var/www/magento2/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout->renderNonCachedElement()
+#59 /var/www/magento2/vendor/magento/framework/View/Layout.php(606): Magento\Framework\View\Layout->renderElement()
+#60 /var/www/magento2/vendor/magento/framework/View/Layout.php(557): Magento\Framework\View\Layout->_renderContainer()
+#61 /var/www/magento2/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout->renderNonCachedElement()
+#62 /var/www/magento2/vendor/magento/framework/View/Layout.php(606): Magento\Framework\View\Layout->renderElement()
+#63 /var/www/magento2/vendor/magento/framework/View/Layout.php(557): Magento\Framework\View\Layout->_renderContainer()
+#64 /var/www/magento2/vendor/magento/framework/View/Layout.php(510): Magento\Framework\View\Layout->renderNonCachedElement()
+#65 /var/www/magento2/vendor/magento/framework/View/Layout.php(975): Magento\Framework\View\Layout->renderElement()
+#66 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\View\Layout->getOutput()
+#67 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\View\Layout\Interceptor->___callParent()
+#68 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\View\Layout\Interceptor->Magento\Framework\Interception\{closure}()
+#69 /var/www/magento2/generated/code/Magento/Framework/View/Layout/Interceptor.php(41): Magento\Framework\View\Layout\Interceptor->___callPlugins()
+#70 /var/www/magento2/vendor/magento/framework/View/Result/Page.php(260): Magento\Framework\View\Layout\Interceptor->getOutput()
+#71 /var/www/magento2/vendor/magento/framework/View/Result/Layout.php(171): Magento\Framework\View\Result\Page->render()
+#72 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\View\Result\Layout->renderResult()
+#73 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\View\Result\Page\Interceptor->___callParent()
+#74 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\View\Result\Page\Interceptor->Magento\Framework\Interception\{closure}()
+#75 /var/www/magento2/generated/code/Magento/Framework/View/Result/Page/Interceptor.php(32): Magento\Framework\View\Result\Page\Interceptor->___callPlugins()
+#76 /var/www/magento2/vendor/magento/framework/App/View.php(221): Magento\Framework\View\Result\Page\Interceptor->renderResult()
+#77 /var/www/magento2/vendor/magento/module-catalog-search/Controller/Result/Index.php(168): Magento\Framework\App\View->renderLayout()
+#78 /var/www/magento2/vendor/magento/module-catalog-search/Controller/Result/Index.php(110): Magento\CatalogSearch\Controller\Result\Index->getNotCacheableResult()
+#79 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(58): Magento\CatalogSearch\Controller\Result\Index->execute()
+#80 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(138): Magento\CatalogSearch\Controller\Result\Index\Interceptor->___callParent()
+#81 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(153): Magento\CatalogSearch\Controller\Result\Index\Interceptor->Magento\Framework\Interception\{closure}()
+#82 /var/www/magento2/generated/code/Magento/CatalogSearch/Controller/Result/Index/Interceptor.php(23): Magento\CatalogSearch\Controller\Result\Index\Interceptor->___callPlugins()
+#83 /var/www/magento2/vendor/magento/framework/App/Action/Action.php(111): Magento\CatalogSearch\Controller\Result\Index\Interceptor->execute()
+#84 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\App\Action\Action->dispatch()
+#85 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(138): Magento\CatalogSearch\Controller\Result\Index\Interceptor->___callParent()
+#86 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(153): Magento\CatalogSearch\Controller\Result\Index\Interceptor->Magento\Framework\Interception\{closure}()
+#87 /var/www/magento2/generated/code/Magento/CatalogSearch/Controller/Result/Index/Interceptor.php(32): Magento\CatalogSearch\Controller\Result\Index\Interceptor->___callPlugins()
+#88 /var/www/magento2/vendor/magento/framework/App/FrontController.php(245): Magento\CatalogSearch\Controller\Result\Index\Interceptor->dispatch()
+#89 /var/www/magento2/vendor/magento/framework/App/FrontController.php(212): Magento\Framework\App\FrontController->getActionResponse()
+#90 /var/www/magento2/vendor/magento/framework/App/FrontController.php(147): Magento\Framework\App\FrontController->processRequest()
+#91 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\App\FrontController->dispatch()
+#92 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\App\FrontController\Interceptor->___callParent()
+#93 /var/www/magento2/vendor/magento/module-store/App/FrontController/Plugin/RequestPreprocessor.php(99): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}()
+#94 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(135): Magento\Store\App\FrontController\Plugin\RequestPreprocessor->aroundDispatch()
+#95 /var/www/magento2/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(75): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}()
+#96 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#97 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}()
+#98 /var/www/magento2/generated/code/Magento/Framework/App/FrontController/Interceptor.php(23): Magento\Framework\App\FrontController\Interceptor->___callPlugins()
+#99 /var/www/magento2/vendor/magento/framework/App/Http.php(116): Magento\Framework\App\FrontController\Interceptor->dispatch()
+#100 /var/www/magento2/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http->launch()
+#101 /var/www/magento2/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#102 {main} {"exception":"[object] (OpenSearch\\Common\\Exceptions\\NoNodesAvailableException(code: 0): No alive nodes found in your cluster at /var/www/magento2/vendor/opensearch-project/opensearch-php/src/OpenSearch/ConnectionPool/StaticNoPingConnectionPool.php:67)"} []
+[2024-07-31T08:31:19.547551+00:00] main.ERROR: No alive nodes found in your cluster [] []
+[2024-07-31T08:31:20.241618+00:00] main.INFO: Broken reference: the 'recaptcha.customer_login' element cannot be added as child to 'page.recaptcha.loader.form_ids', because the latter doesn't exist [] []
+[2024-07-31T08:31:20.242727+00:00] main.INFO: Broken reference: the 'recaptcha.newsletter' element cannot be added as child to 'page.recaptcha.loader.form_ids', because the latter doesn't exist [] []
+[2024-07-31T08:31:20.244412+00:00] main.INFO: Broken reference: the 'cms_footer_links_container' tries to reorder itself towards 'footer_links', but their parents are different: 'footer' and '' respectively. [] []
+[2024-07-31T08:31:30.926578+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-07-31T08:31:34.850271+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
+[2024-07-31T08:31:34.851691+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-07-31T08:32:11.240432+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://magento2.local/admin/catalog/product/save/type/simple/store/0/set/4/key/80b528ff26a4e5567dc177f72845fc93d49a2e1d4ffcab0c98d14080f5f88572/back/edit","invalidateInfo":{"tags":["cat_p_1","cat_c_p_2"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:32:11.242039+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://magento2.local/admin/catalog/product/save/type/simple/store/0/set/4/key/80b528ff26a4e5567dc177f72845fc93d49a2e1d4ffcab0c98d14080f5f88572/back/edit","invalidateInfo":{"tags":["cat_p_1","FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:32:11.244293+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://magento2.local/admin/catalog/product/save/type/simple/store/0/set/4/key/80b528ff26a4e5567dc177f72845fc93d49a2e1d4ffcab0c98d14080f5f88572/back/edit","invalidateInfo":{"tags":["cat_c_p_2","FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:32:11.344602+00:00] main.ERROR: Could not ping search engine: No alive nodes found in your cluster [] []
+[2024-07-31T08:32:11.356255+00:00] main.CRITICAL: Magento\Framework\Exception\LocalizedException: Could not ping search engine: No alive nodes found in your cluster in /var/www/magento2/vendor/magento/module-elasticsearch/Model/Adapter/Elasticsearch.php:196
+Stack trace:
+#0 /var/www/magento2/vendor/magento/module-elasticsearch/Model/Indexer/IndexerHandler.php(205): Magento\Elasticsearch\Model\Adapter\Elasticsearch->ping()
+#1 /var/www/magento2/vendor/magento/module-catalog-search/Model/Indexer/IndexerHandlerFactory.php(78): Magento\Elasticsearch\Model\Indexer\IndexerHandler->isAvailable()
+#2 /var/www/magento2/vendor/magento/module-catalog-search/Model/Indexer/Fulltext/Action/Full.php(274): Magento\CatalogSearch\Model\Indexer\IndexerHandlerFactory->create()
+#3 /var/www/magento2/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(121): Magento\CatalogSearch\Model\Indexer\Fulltext\Action\Full->__construct()
+#4 /var/www/magento2/vendor/magento/framework/ObjectManager/Factory/Compiled.php(108): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject()
+#5 /var/www/magento2/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#6 /var/www/magento2/generated/code/Magento/CatalogSearch/Model/Indexer/Fulltext/Action/FullFactory.php(43): Magento\Framework\ObjectManager\ObjectManager->create()
+#7 /var/www/magento2/vendor/magento/module-catalog-search/Model/Indexer/Fulltext.php(130): Magento\CatalogSearch\Model\Indexer\Fulltext\Action\FullFactory->create()
+#8 /var/www/magento2/generated/code/Magento/CatalogSearch/Model/Indexer/Fulltext/Interceptor.php(14): Magento\CatalogSearch\Model\Indexer\Fulltext->__construct()
+#9 /var/www/magento2/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(121): Magento\CatalogSearch\Model\Indexer\Fulltext\Interceptor->__construct()
+#10 /var/www/magento2/vendor/magento/framework/ObjectManager/Factory/Compiled.php(108): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject()
+#11 /var/www/magento2/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#12 /var/www/magento2/vendor/magento/framework/Indexer/ActionFactory.php(33): Magento\Framework\ObjectManager\ObjectManager->create()
+#13 /var/www/magento2/vendor/magento/module-indexer/Model/Indexer.php(399): Magento\Framework\Indexer\ActionFactory->create()
+#14 /var/www/magento2/vendor/magento/module-indexer/Model/Indexer.php(521): Magento\Indexer\Model\Indexer->getActionInstance()
+#15 /var/www/magento2/vendor/magento/module-indexer/Model/Indexer/DependencyDecorator.php(277): Magento\Indexer\Model\Indexer->reindexRow()
+#16 /var/www/magento2/vendor/magento/module-indexer/Model/Indexer/DependencyDecorator.php(282): Magento\Indexer\Model\Indexer\DependencyDecorator->reindexRow()
+#17 /var/www/magento2/vendor/magento/framework/Indexer/AbstractProcessor.php(54): Magento\Indexer\Model\Indexer\DependencyDecorator->reindexRow()
+#18 /var/www/magento2/vendor/magento/module-catalog-inventory/Model/ResourceModel/Stock/Item.php(155): Magento\Framework\Indexer\AbstractProcessor->reindexRow()
+#19 /var/www/magento2/vendor/magento/framework/Model/ResourceModel/Db/AbstractDb.php(841): Magento\CatalogInventory\Model\ResourceModel\Stock\Item->_afterSave()
+#20 /var/www/magento2/vendor/magento/framework/Model/ResourceModel/Db/AbstractDb.php(402): Magento\Framework\Model\ResourceModel\Db\AbstractDb->processAfterSaves()
+#21 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\Model\ResourceModel\Db\AbstractDb->save()
+#22 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(138): Magento\CatalogInventory\Model\ResourceModel\Stock\Item\Interceptor->___callParent()
+#23 /var/www/magento2/vendor/magento/module-inventory-catalog/Plugin/CatalogInventory/UpdateSourceItemAtLegacyStockItemSavePlugin.php(147): Magento\CatalogInventory\Model\ResourceModel\Stock\Item\Interceptor->Magento\Framework\Interception\{closure}()
+#24 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(135): Magento\InventoryCatalog\Plugin\CatalogInventory\UpdateSourceItemAtLegacyStockItemSavePlugin->aroundSave()
+#25 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(153): Magento\CatalogInventory\Model\ResourceModel\Stock\Item\Interceptor->Magento\Framework\Interception\{closure}()
+#26 /var/www/magento2/generated/code/Magento/CatalogInventory/Model/ResourceModel/Stock/Item/Interceptor.php(23): Magento\CatalogInventory\Model\ResourceModel\Stock\Item\Interceptor->___callPlugins()
+#27 /var/www/magento2/vendor/magento/module-catalog-inventory/Model/Stock/StockItemRepository.php(193): Magento\CatalogInventory\Model\ResourceModel\Stock\Item\Interceptor->save()
+#28 /var/www/magento2/vendor/magento/module-catalog-inventory/Model/StockRegistry.php(181): Magento\CatalogInventory\Model\Stock\StockItemRepository->save()
+#29 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(58): Magento\CatalogInventory\Model\StockRegistry->updateStockItemBySku()
+#30 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(138): Magento\CatalogInventory\Model\StockRegistry\Interceptor->___callParent()
+#31 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(153): Magento\CatalogInventory\Model\StockRegistry\Interceptor->Magento\Framework\Interception\{closure}()
+#32 /var/www/magento2/generated/code/Magento/CatalogInventory/Model/StockRegistry/Interceptor.php(59): Magento\CatalogInventory\Model\StockRegistry\Interceptor->___callPlugins()
+#33 /var/www/magento2/vendor/magento/module-catalog-inventory/Observer/SaveInventoryDataObserver.php(125): Magento\CatalogInventory\Model\StockRegistry\Interceptor->updateStockItemBySku()
+#34 /var/www/magento2/vendor/magento/framework/Event/Invoker/InvokerDefault.php(88): Magento\CatalogInventory\Observer\SaveInventoryDataObserver->execute()
+#35 /var/www/magento2/vendor/magento/framework/Event/Invoker/InvokerDefault.php(74): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod()
+#36 /var/www/magento2/vendor/magento/framework/Event/Manager.php(65): Magento\Framework\Event\Invoker\InvokerDefault->dispatch()
+#37 /var/www/magento2/generated/code/Magento/Framework/Event/Manager/Proxy.php(95): Magento\Framework\Event\Manager->dispatch()
+#38 /var/www/magento2/vendor/magento/framework/Model/AbstractModel.php(837): Magento\Framework\Event\Manager\Proxy->dispatch()
+#39 /var/www/magento2/vendor/magento/module-catalog/Model/Product.php(985): Magento\Framework\Model\AbstractModel->afterSave()
+#40 /var/www/magento2/vendor/magento/framework/EntityManager/Observer/AfterEntitySave.php(34): Magento\Catalog\Model\Product->afterSave()
+#41 /var/www/magento2/vendor/magento/framework/Event/Invoker/InvokerDefault.php(88): Magento\Framework\EntityManager\Observer\AfterEntitySave->execute()
+#42 /var/www/magento2/vendor/magento/framework/Event/Invoker/InvokerDefault.php(74): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod()
+#43 /var/www/magento2/vendor/magento/framework/Event/Manager.php(65): Magento\Framework\Event\Invoker\InvokerDefault->dispatch()
+#44 /var/www/magento2/generated/code/Magento/Framework/Event/Manager/Proxy.php(95): Magento\Framework\Event\Manager->dispatch()
+#45 /var/www/magento2/vendor/magento/framework/EntityManager/EventManager.php(50): Magento\Framework\Event\Manager\Proxy->dispatch()
+#46 /var/www/magento2/vendor/magento/framework/EntityManager/Operation/Create.php(123): Magento\Framework\EntityManager\EventManager->dispatchEntityEvent()
+#47 /var/www/magento2/vendor/magento/framework/EntityManager/EntityManager.php(106): Magento\Framework\EntityManager\Operation\Create->execute()
+#48 /var/www/magento2/vendor/magento/module-catalog/Model/ResourceModel/Product.php(777): Magento\Framework\EntityManager\EntityManager->save()
+#49 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Catalog\Model\ResourceModel\Product->save()
+#50 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Catalog\Model\ResourceModel\Product\Interceptor->___callParent()
+#51 /var/www/magento2/vendor/magento/module-catalog-search/Model/Indexer/Fulltext/Plugin/Product.php(58): Magento\Catalog\Model\ResourceModel\Product\Interceptor->Magento\Framework\Interception\{closure}()
+#52 /var/www/magento2/vendor/magento/module-catalog-search/Model/Indexer/Fulltext/Plugin/Product.php(28): Magento\CatalogSearch\Model\Indexer\Fulltext\Plugin\Product->addCommitCallback()
+#53 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(135): Magento\CatalogSearch\Model\Indexer\Fulltext\Plugin\Product->aroundSave()
+#54 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Catalog\Model\ResourceModel\Product\Interceptor->Magento\Framework\Interception\{closure}()
+#55 /var/www/magento2/generated/code/Magento/Catalog/Model/ResourceModel/Product/Interceptor.php(32): Magento\Catalog\Model\ResourceModel\Product\Interceptor->___callPlugins()
+#56 /var/www/magento2/vendor/magento/framework/Model/AbstractModel.php(663): Magento\Catalog\Model\ResourceModel\Product\Interceptor->save()
+#57 /var/www/magento2/vendor/magento/module-catalog/Controller/Adminhtml/Product/Save.php(143): Magento\Framework\Model\AbstractModel->save()
+#58 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Catalog\Controller\Adminhtml\Product\Save->execute()
+#59 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->___callParent()
+#60 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->Magento\Framework\Interception\{closure}()
+#61 /var/www/magento2/generated/code/Magento/Catalog/Controller/Adminhtml/Product/Save/Interceptor.php(23): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->___callPlugins()
+#62 /var/www/magento2/vendor/magento/framework/App/Action/Action.php(111): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->execute()
+#63 /var/www/magento2/vendor/magento/module-backend/App/AbstractAction.php(151): Magento\Framework\App\Action\Action->dispatch()
+#64 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Backend\App\AbstractAction->dispatch()
+#65 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->___callParent()
+#66 /var/www/magento2/vendor/magento/module-backend/App/Action/Plugin/Authentication.php(145): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->Magento\Framework\Interception\{closure}()
+#67 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(135): Magento\Backend\App\Action\Plugin\Authentication->aroundDispatch()
+#68 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->Magento\Framework\Interception\{closure}()
+#69 /var/www/magento2/generated/code/Magento/Catalog/Controller/Adminhtml/Product/Save/Interceptor.php(32): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->___callPlugins()
+#70 /var/www/magento2/vendor/magento/framework/App/FrontController.php(245): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->dispatch()
+#71 /var/www/magento2/vendor/magento/framework/App/FrontController.php(212): Magento\Framework\App\FrontController->getActionResponse()
+#72 /var/www/magento2/vendor/magento/framework/App/FrontController.php(147): Magento\Framework\App\FrontController->processRequest()
+#73 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\App\FrontController->dispatch()
+#74 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\App\FrontController\Interceptor->___callParent()
+#75 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}()
+#76 /var/www/magento2/generated/code/Magento/Framework/App/FrontController/Interceptor.php(23): Magento\Framework\App\FrontController\Interceptor->___callPlugins()
+#77 /var/www/magento2/vendor/magento/framework/App/Http.php(116): Magento\Framework\App\FrontController\Interceptor->dispatch()
+#78 /var/www/magento2/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http->launch()
+#79 /var/www/magento2/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#80 {main}
+
+Next Magento\Framework\Exception\CouldNotSaveException: The stock item was unable to be saved. Please try again. in /var/www/magento2/vendor/magento/module-catalog-inventory/Model/Stock/StockItemRepository.php:196
+Stack trace:
+#0 /var/www/magento2/vendor/magento/module-catalog-inventory/Model/StockRegistry.php(181): Magento\CatalogInventory\Model\Stock\StockItemRepository->save()
+#1 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(58): Magento\CatalogInventory\Model\StockRegistry->updateStockItemBySku()
+#2 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(138): Magento\CatalogInventory\Model\StockRegistry\Interceptor->___callParent()
+#3 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(153): Magento\CatalogInventory\Model\StockRegistry\Interceptor->Magento\Framework\Interception\{closure}()
+#4 /var/www/magento2/generated/code/Magento/CatalogInventory/Model/StockRegistry/Interceptor.php(59): Magento\CatalogInventory\Model\StockRegistry\Interceptor->___callPlugins()
+#5 /var/www/magento2/vendor/magento/module-catalog-inventory/Observer/SaveInventoryDataObserver.php(125): Magento\CatalogInventory\Model\StockRegistry\Interceptor->updateStockItemBySku()
+#6 /var/www/magento2/vendor/magento/framework/Event/Invoker/InvokerDefault.php(88): Magento\CatalogInventory\Observer\SaveInventoryDataObserver->execute()
+#7 /var/www/magento2/vendor/magento/framework/Event/Invoker/InvokerDefault.php(74): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod()
+#8 /var/www/magento2/vendor/magento/framework/Event/Manager.php(65): Magento\Framework\Event\Invoker\InvokerDefault->dispatch()
+#9 /var/www/magento2/generated/code/Magento/Framework/Event/Manager/Proxy.php(95): Magento\Framework\Event\Manager->dispatch()
+#10 /var/www/magento2/vendor/magento/framework/Model/AbstractModel.php(837): Magento\Framework\Event\Manager\Proxy->dispatch()
+#11 /var/www/magento2/vendor/magento/module-catalog/Model/Product.php(985): Magento\Framework\Model\AbstractModel->afterSave()
+#12 /var/www/magento2/vendor/magento/framework/EntityManager/Observer/AfterEntitySave.php(34): Magento\Catalog\Model\Product->afterSave()
+#13 /var/www/magento2/vendor/magento/framework/Event/Invoker/InvokerDefault.php(88): Magento\Framework\EntityManager\Observer\AfterEntitySave->execute()
+#14 /var/www/magento2/vendor/magento/framework/Event/Invoker/InvokerDefault.php(74): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod()
+#15 /var/www/magento2/vendor/magento/framework/Event/Manager.php(65): Magento\Framework\Event\Invoker\InvokerDefault->dispatch()
+#16 /var/www/magento2/generated/code/Magento/Framework/Event/Manager/Proxy.php(95): Magento\Framework\Event\Manager->dispatch()
+#17 /var/www/magento2/vendor/magento/framework/EntityManager/EventManager.php(50): Magento\Framework\Event\Manager\Proxy->dispatch()
+#18 /var/www/magento2/vendor/magento/framework/EntityManager/Operation/Create.php(123): Magento\Framework\EntityManager\EventManager->dispatchEntityEvent()
+#19 /var/www/magento2/vendor/magento/framework/EntityManager/EntityManager.php(106): Magento\Framework\EntityManager\Operation\Create->execute()
+#20 /var/www/magento2/vendor/magento/module-catalog/Model/ResourceModel/Product.php(777): Magento\Framework\EntityManager\EntityManager->save()
+#21 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Catalog\Model\ResourceModel\Product->save()
+#22 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Catalog\Model\ResourceModel\Product\Interceptor->___callParent()
+#23 /var/www/magento2/vendor/magento/module-catalog-search/Model/Indexer/Fulltext/Plugin/Product.php(58): Magento\Catalog\Model\ResourceModel\Product\Interceptor->Magento\Framework\Interception\{closure}()
+#24 /var/www/magento2/vendor/magento/module-catalog-search/Model/Indexer/Fulltext/Plugin/Product.php(28): Magento\CatalogSearch\Model\Indexer\Fulltext\Plugin\Product->addCommitCallback()
+#25 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(135): Magento\CatalogSearch\Model\Indexer\Fulltext\Plugin\Product->aroundSave()
+#26 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Catalog\Model\ResourceModel\Product\Interceptor->Magento\Framework\Interception\{closure}()
+#27 /var/www/magento2/generated/code/Magento/Catalog/Model/ResourceModel/Product/Interceptor.php(32): Magento\Catalog\Model\ResourceModel\Product\Interceptor->___callPlugins()
+#28 /var/www/magento2/vendor/magento/framework/Model/AbstractModel.php(663): Magento\Catalog\Model\ResourceModel\Product\Interceptor->save()
+#29 /var/www/magento2/vendor/magento/module-catalog/Controller/Adminhtml/Product/Save.php(143): Magento\Framework\Model\AbstractModel->save()
+#30 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Catalog\Controller\Adminhtml\Product\Save->execute()
+#31 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->___callParent()
+#32 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->Magento\Framework\Interception\{closure}()
+#33 /var/www/magento2/generated/code/Magento/Catalog/Controller/Adminhtml/Product/Save/Interceptor.php(23): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->___callPlugins()
+#34 /var/www/magento2/vendor/magento/framework/App/Action/Action.php(111): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->execute()
+#35 /var/www/magento2/vendor/magento/module-backend/App/AbstractAction.php(151): Magento\Framework\App\Action\Action->dispatch()
+#36 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Backend\App\AbstractAction->dispatch()
+#37 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->___callParent()
+#38 /var/www/magento2/vendor/magento/module-backend/App/Action/Plugin/Authentication.php(145): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->Magento\Framework\Interception\{closure}()
+#39 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(135): Magento\Backend\App\Action\Plugin\Authentication->aroundDispatch()
+#40 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->Magento\Framework\Interception\{closure}()
+#41 /var/www/magento2/generated/code/Magento/Catalog/Controller/Adminhtml/Product/Save/Interceptor.php(32): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->___callPlugins()
+#42 /var/www/magento2/vendor/magento/framework/App/FrontController.php(245): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->dispatch()
+#43 /var/www/magento2/vendor/magento/framework/App/FrontController.php(212): Magento\Framework\App\FrontController->getActionResponse()
+#44 /var/www/magento2/vendor/magento/framework/App/FrontController.php(147): Magento\Framework\App\FrontController->processRequest()
+#45 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\App\FrontController->dispatch()
+#46 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\App\FrontController\Interceptor->___callParent()
+#47 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}()
+#48 /var/www/magento2/generated/code/Magento/Framework/App/FrontController/Interceptor.php(23): Magento\Framework\App\FrontController\Interceptor->___callPlugins()
+#49 /var/www/magento2/vendor/magento/framework/App/Http.php(116): Magento\Framework\App\FrontController\Interceptor->dispatch()
+#50 /var/www/magento2/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http->launch()
+#51 /var/www/magento2/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#52 {main} {"exception":"[object] (Magento\\Framework\\Exception\\CouldNotSaveException(code: 0): The stock item was unable to be saved. Please try again. at /var/www/magento2/vendor/magento/module-catalog-inventory/Model/Stock/StockItemRepository.php:196)
+[previous exception] [object] (Magento\\Framework\\Exception\\LocalizedException(code: 0): Could not ping search engine: No alive nodes found in your cluster at /var/www/magento2/vendor/magento/module-elasticsearch/Model/Adapter/Elasticsearch.php:196)"} []
+[2024-07-31T08:32:11.361294+00:00] main.CRITICAL: Exception message: The stock item was unable to be saved. Please try again.
+Trace: <pre>#1 Magento\CatalogInventory\Model\StockRegistry->updateStockItemBySku() called at [vendor/magento/framework/Interception/Interceptor.php:58]
+#2 Magento\CatalogInventory\Model\StockRegistry\Interceptor->___callParent() called at [vendor/magento/framework/Interception/Interceptor.php:138]
+#3 Magento\CatalogInventory\Model\StockRegistry\Interceptor->Magento\Framework\Interception\{closure}() called at [vendor/magento/framework/Interception/Interceptor.php:153]
+#4 Magento\CatalogInventory\Model\StockRegistry\Interceptor->___callPlugins() called at [generated/code/Magento/CatalogInventory/Model/StockRegistry/Interceptor.php:59]
+#5 Magento\CatalogInventory\Model\StockRegistry\Interceptor->updateStockItemBySku() called at [vendor/magento/module-catalog-inventory/Observer/SaveInventoryDataObserver.php:125]
+#6 Magento\CatalogInventory\Observer\SaveInventoryDataObserver->execute() called at [vendor/magento/framework/Event/Invoker/InvokerDefault.php:88]
+#7 Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod() called at [vendor/magento/framework/Event/Invoker/InvokerDefault.php:74]
+#8 Magento\Framework\Event\Invoker\InvokerDefault->dispatch() called at [vendor/magento/framework/Event/Manager.php:65]
+#9 Magento\Framework\Event\Manager->dispatch() called at [generated/code/Magento/Framework/Event/Manager/Proxy.php:95]
+#10 Magento\Framework\Event\Manager\Proxy->dispatch() called at [vendor/magento/framework/Model/AbstractModel.php:837]
+#11 Magento\Framework\Model\AbstractModel->afterSave() called at [vendor/magento/module-catalog/Model/Product.php:985]
+#12 Magento\Catalog\Model\Product->afterSave() called at [vendor/magento/framework/EntityManager/Observer/AfterEntitySave.php:34]
+#13 Magento\Framework\EntityManager\Observer\AfterEntitySave->execute() called at [vendor/magento/framework/Event/Invoker/InvokerDefault.php:88]
+#14 Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod() called at [vendor/magento/framework/Event/Invoker/InvokerDefault.php:74]
+#15 Magento\Framework\Event\Invoker\InvokerDefault->dispatch() called at [vendor/magento/framework/Event/Manager.php:65]
+#16 Magento\Framework\Event\Manager->dispatch() called at [generated/code/Magento/Framework/Event/Manager/Proxy.php:95]
+#17 Magento\Framework\Event\Manager\Proxy->dispatch() called at [vendor/magento/framework/EntityManager/EventManager.php:50]
+#18 Magento\Framework\EntityManager\EventManager->dispatchEntityEvent() called at [vendor/magento/framework/EntityManager/Operation/Create.php:123]
+#19 Magento\Framework\EntityManager\Operation\Create->execute() called at [vendor/magento/framework/EntityManager/EntityManager.php:106]
+#20 Magento\Framework\EntityManager\EntityManager->save() called at [vendor/magento/module-catalog/Model/ResourceModel/Product.php:777]
+#21 Magento\Catalog\Model\ResourceModel\Product->save() called at [vendor/magento/framework/Interception/Interceptor.php:58]
+#22 Magento\Catalog\Model\ResourceModel\Product\Interceptor->___callParent() called at [vendor/magento/framework/Interception/Interceptor.php:138]
+#23 Magento\Catalog\Model\ResourceModel\Product\Interceptor->Magento\Framework\Interception\{closure}() called at [vendor/magento/module-catalog-search/Model/Indexer/Fulltext/Plugin/Product.php:58]
+#24 Magento\CatalogSearch\Model\Indexer\Fulltext\Plugin\Product->addCommitCallback() called at [vendor/magento/module-catalog-search/Model/Indexer/Fulltext/Plugin/Product.php:28]
+#25 Magento\CatalogSearch\Model\Indexer\Fulltext\Plugin\Product->aroundSave() called at [vendor/magento/framework/Interception/Interceptor.php:135]
+#26 Magento\Catalog\Model\ResourceModel\Product\Interceptor->Magento\Framework\Interception\{closure}() called at [vendor/magento/framework/Interception/Interceptor.php:153]
+#27 Magento\Catalog\Model\ResourceModel\Product\Interceptor->___callPlugins() called at [generated/code/Magento/Catalog/Model/ResourceModel/Product/Interceptor.php:32]
+#28 Magento\Catalog\Model\ResourceModel\Product\Interceptor->save() called at [vendor/magento/framework/Model/AbstractModel.php:663]
+#29 Magento\Framework\Model\AbstractModel->save() called at [vendor/magento/module-catalog/Controller/Adminhtml/Product/Save.php:143]
+#30 Magento\Catalog\Controller\Adminhtml\Product\Save->execute() called at [vendor/magento/framework/Interception/Interceptor.php:58]
+#31 Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->___callParent() called at [vendor/magento/framework/Interception/Interceptor.php:138]
+#32 Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->Magento\Framework\Interception\{closure}() called at [vendor/magento/framework/Interception/Interceptor.php:153]
+#33 Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->___callPlugins() called at [generated/code/Magento/Catalog/Controller/Adminhtml/Product/Save/Interceptor.php:23]
+#34 Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->execute() called at [vendor/magento/framework/App/Action/Action.php:111]
+#35 Magento\Framework\App\Action\Action->dispatch() called at [vendor/magento/module-backend/App/AbstractAction.php:151]
+#36 Magento\Backend\App\AbstractAction->dispatch() called at [vendor/magento/framework/Interception/Interceptor.php:58]
+#37 Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->___callParent() called at [vendor/magento/framework/Interception/Interceptor.php:138]
+#38 Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->Magento\Framework\Interception\{closure}() called at [vendor/magento/module-backend/App/Action/Plugin/Authentication.php:145]
+#39 Magento\Backend\App\Action\Plugin\Authentication->aroundDispatch() called at [vendor/magento/framework/Interception/Interceptor.php:135]
+#40 Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->Magento\Framework\Interception\{closure}() called at [vendor/magento/framework/Interception/Interceptor.php:153]
+#41 Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->___callPlugins() called at [generated/code/Magento/Catalog/Controller/Adminhtml/Product/Save/Interceptor.php:32]
+#42 Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->dispatch() called at [vendor/magento/framework/App/FrontController.php:245]
+#43 Magento\Framework\App\FrontController->getActionResponse() called at [vendor/magento/framework/App/FrontController.php:212]
+#44 Magento\Framework\App\FrontController->processRequest() called at [vendor/magento/framework/App/FrontController.php:147]
+#45 Magento\Framework\App\FrontController->dispatch() called at [vendor/magento/framework/Interception/Interceptor.php:58]
+#46 Magento\Framework\App\FrontController\Interceptor->___callParent() called at [vendor/magento/framework/Interception/Interceptor.php:138]
+#47 Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}() called at [vendor/magento/framework/Interception/Interceptor.php:153]
+#48 Magento\Framework\App\FrontController\Interceptor->___callPlugins() called at [generated/code/Magento/Framework/App/FrontController/Interceptor.php:23]
+#49 Magento\Framework\App\FrontController\Interceptor->dispatch() called at [vendor/magento/framework/App/Http.php:116]
+#50 Magento\Framework\App\Http->launch() called at [vendor/magento/framework/App/Bootstrap.php:264]
+#51 Magento\Framework\App\Bootstrap->run() called at [pub/index.php:30]
+</pre> [] []
+[2024-07-31T08:32:11.486874+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
+[2024-07-31T08:32:11.488058+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2024-07-31T08:32:42.058142+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://magento2.local/admin/catalog/product/save/type/simple/store/0/set/4/key/80b528ff26a4e5567dc177f72845fc93d49a2e1d4ffcab0c98d14080f5f88572/back/edit","invalidateInfo":{"tags":["cat_p_2","cat_c_p_2"],"mode":"matchingAnyTag"}} []
+[2024-07-31T08:32:42.060085+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://magento2.local/admin/catalog/product/save/type/simple/store/0/set/4/key/80b528ff26a4e5567dc177f72845fc93d49a2e1d4ffcab0c98d14080f5f88572/back/edit","invalidateInfo":{"tags":["cat_p_2","FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:32:42.061596+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://magento2.local/admin/catalog/product/save/type/simple/store/0/set/4/key/80b528ff26a4e5567dc177f72845fc93d49a2e1d4ffcab0c98d14080f5f88572/back/edit","invalidateInfo":{"tags":["cat_c_p_2","FPC"],"mode":"matchingTag"}} []
+[2024-07-31T08:32:42.109829+00:00] main.ERROR: Could not ping search engine: No alive nodes found in your cluster [] []
+[2024-07-31T08:32:42.118852+00:00] main.CRITICAL: Magento\Framework\Exception\LocalizedException: Could not ping search engine: No alive nodes found in your cluster in /var/www/magento2/vendor/magento/module-elasticsearch/Model/Adapter/Elasticsearch.php:196
+Stack trace:
+#0 /var/www/magento2/vendor/magento/module-elasticsearch/Model/Indexer/IndexerHandler.php(205): Magento\Elasticsearch\Model\Adapter\Elasticsearch->ping()
+#1 /var/www/magento2/vendor/magento/module-catalog-search/Model/Indexer/IndexerHandlerFactory.php(78): Magento\Elasticsearch\Model\Indexer\IndexerHandler->isAvailable()
+#2 /var/www/magento2/vendor/magento/module-catalog-search/Model/Indexer/Fulltext/Action/Full.php(274): Magento\CatalogSearch\Model\Indexer\IndexerHandlerFactory->create()
+#3 /var/www/magento2/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(121): Magento\CatalogSearch\Model\Indexer\Fulltext\Action\Full->__construct()
+#4 /var/www/magento2/vendor/magento/framework/ObjectManager/Factory/Compiled.php(108): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject()
+#5 /var/www/magento2/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#6 /var/www/magento2/generated/code/Magento/CatalogSearch/Model/Indexer/Fulltext/Action/FullFactory.php(43): Magento\Framework\ObjectManager\ObjectManager->create()
+#7 /var/www/magento2/vendor/magento/module-catalog-search/Model/Indexer/Fulltext.php(130): Magento\CatalogSearch\Model\Indexer\Fulltext\Action\FullFactory->create()
+#8 /var/www/magento2/generated/code/Magento/CatalogSearch/Model/Indexer/Fulltext/Interceptor.php(14): Magento\CatalogSearch\Model\Indexer\Fulltext->__construct()
+#9 /var/www/magento2/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(121): Magento\CatalogSearch\Model\Indexer\Fulltext\Interceptor->__construct()
+#10 /var/www/magento2/vendor/magento/framework/ObjectManager/Factory/Compiled.php(108): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject()
+#11 /var/www/magento2/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#12 /var/www/magento2/vendor/magento/framework/Indexer/ActionFactory.php(33): Magento\Framework\ObjectManager\ObjectManager->create()
+#13 /var/www/magento2/vendor/magento/module-indexer/Model/Indexer.php(399): Magento\Framework\Indexer\ActionFactory->create()
+#14 /var/www/magento2/vendor/magento/module-indexer/Model/Indexer.php(521): Magento\Indexer\Model\Indexer->getActionInstance()
+#15 /var/www/magento2/vendor/magento/module-indexer/Model/Indexer/DependencyDecorator.php(277): Magento\Indexer\Model\Indexer->reindexRow()
+#16 /var/www/magento2/vendor/magento/module-indexer/Model/Indexer/DependencyDecorator.php(282): Magento\Indexer\Model\Indexer\DependencyDecorator->reindexRow()
+#17 /var/www/magento2/vendor/magento/framework/Indexer/AbstractProcessor.php(54): Magento\Indexer\Model\Indexer\DependencyDecorator->reindexRow()
+#18 /var/www/magento2/vendor/magento/module-catalog-inventory/Model/ResourceModel/Stock/Item.php(155): Magento\Framework\Indexer\AbstractProcessor->reindexRow()
+#19 /var/www/magento2/vendor/magento/framework/Model/ResourceModel/Db/AbstractDb.php(841): Magento\CatalogInventory\Model\ResourceModel\Stock\Item->_afterSave()
+#20 /var/www/magento2/vendor/magento/framework/Model/ResourceModel/Db/AbstractDb.php(402): Magento\Framework\Model\ResourceModel\Db\AbstractDb->processAfterSaves()
+#21 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\Model\ResourceModel\Db\AbstractDb->save()
+#22 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(138): Magento\CatalogInventory\Model\ResourceModel\Stock\Item\Interceptor->___callParent()
+#23 /var/www/magento2/vendor/magento/module-inventory-catalog/Plugin/CatalogInventory/UpdateSourceItemAtLegacyStockItemSavePlugin.php(147): Magento\CatalogInventory\Model\ResourceModel\Stock\Item\Interceptor->Magento\Framework\Interception\{closure}()
+#24 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(135): Magento\InventoryCatalog\Plugin\CatalogInventory\UpdateSourceItemAtLegacyStockItemSavePlugin->aroundSave()
+#25 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(153): Magento\CatalogInventory\Model\ResourceModel\Stock\Item\Interceptor->Magento\Framework\Interception\{closure}()
+#26 /var/www/magento2/generated/code/Magento/CatalogInventory/Model/ResourceModel/Stock/Item/Interceptor.php(23): Magento\CatalogInventory\Model\ResourceModel\Stock\Item\Interceptor->___callPlugins()
+#27 /var/www/magento2/vendor/magento/module-catalog-inventory/Model/Stock/StockItemRepository.php(193): Magento\CatalogInventory\Model\ResourceModel\Stock\Item\Interceptor->save()
+#28 /var/www/magento2/vendor/magento/module-catalog-inventory/Model/StockRegistry.php(181): Magento\CatalogInventory\Model\Stock\StockItemRepository->save()
+#29 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(58): Magento\CatalogInventory\Model\StockRegistry->updateStockItemBySku()
+#30 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(138): Magento\CatalogInventory\Model\StockRegistry\Interceptor->___callParent()
+#31 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(153): Magento\CatalogInventory\Model\StockRegistry\Interceptor->Magento\Framework\Interception\{closure}()
+#32 /var/www/magento2/generated/code/Magento/CatalogInventory/Model/StockRegistry/Interceptor.php(59): Magento\CatalogInventory\Model\StockRegistry\Interceptor->___callPlugins()
+#33 /var/www/magento2/vendor/magento/module-catalog-inventory/Observer/SaveInventoryDataObserver.php(125): Magento\CatalogInventory\Model\StockRegistry\Interceptor->updateStockItemBySku()
+#34 /var/www/magento2/vendor/magento/framework/Event/Invoker/InvokerDefault.php(88): Magento\CatalogInventory\Observer\SaveInventoryDataObserver->execute()
+#35 /var/www/magento2/vendor/magento/framework/Event/Invoker/InvokerDefault.php(74): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod()
+#36 /var/www/magento2/vendor/magento/framework/Event/Manager.php(65): Magento\Framework\Event\Invoker\InvokerDefault->dispatch()
+#37 /var/www/magento2/generated/code/Magento/Framework/Event/Manager/Proxy.php(95): Magento\Framework\Event\Manager->dispatch()
+#38 /var/www/magento2/vendor/magento/framework/Model/AbstractModel.php(837): Magento\Framework\Event\Manager\Proxy->dispatch()
+#39 /var/www/magento2/vendor/magento/module-catalog/Model/Product.php(985): Magento\Framework\Model\AbstractModel->afterSave()
+#40 /var/www/magento2/vendor/magento/framework/EntityManager/Observer/AfterEntitySave.php(34): Magento\Catalog\Model\Product->afterSave()
+#41 /var/www/magento2/vendor/magento/framework/Event/Invoker/InvokerDefault.php(88): Magento\Framework\EntityManager\Observer\AfterEntitySave->execute()
+#42 /var/www/magento2/vendor/magento/framework/Event/Invoker/InvokerDefault.php(74): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod()
+#43 /var/www/magento2/vendor/magento/framework/Event/Manager.php(65): Magento\Framework\Event\Invoker\InvokerDefault->dispatch()
+#44 /var/www/magento2/generated/code/Magento/Framework/Event/Manager/Proxy.php(95): Magento\Framework\Event\Manager->dispatch()
+#45 /var/www/magento2/vendor/magento/framework/EntityManager/EventManager.php(50): Magento\Framework\Event\Manager\Proxy->dispatch()
+#46 /var/www/magento2/vendor/magento/framework/EntityManager/Operation/Create.php(123): Magento\Framework\EntityManager\EventManager->dispatchEntityEvent()
+#47 /var/www/magento2/vendor/magento/framework/EntityManager/EntityManager.php(106): Magento\Framework\EntityManager\Operation\Create->execute()
+#48 /var/www/magento2/vendor/magento/module-catalog/Model/ResourceModel/Product.php(777): Magento\Framework\EntityManager\EntityManager->save()
+#49 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Catalog\Model\ResourceModel\Product->save()
+#50 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Catalog\Model\ResourceModel\Product\Interceptor->___callParent()
+#51 /var/www/magento2/vendor/magento/module-catalog-search/Model/Indexer/Fulltext/Plugin/Product.php(58): Magento\Catalog\Model\ResourceModel\Product\Interceptor->Magento\Framework\Interception\{closure}()
+#52 /var/www/magento2/vendor/magento/module-catalog-search/Model/Indexer/Fulltext/Plugin/Product.php(28): Magento\CatalogSearch\Model\Indexer\Fulltext\Plugin\Product->addCommitCallback()
+#53 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(135): Magento\CatalogSearch\Model\Indexer\Fulltext\Plugin\Product->aroundSave()
+#54 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Catalog\Model\ResourceModel\Product\Interceptor->Magento\Framework\Interception\{closure}()
+#55 /var/www/magento2/generated/code/Magento/Catalog/Model/ResourceModel/Product/Interceptor.php(32): Magento\Catalog\Model\ResourceModel\Product\Interceptor->___callPlugins()
+#56 /var/www/magento2/vendor/magento/framework/Model/AbstractModel.php(663): Magento\Catalog\Model\ResourceModel\Product\Interceptor->save()
+#57 /var/www/magento2/vendor/magento/module-catalog/Controller/Adminhtml/Product/Save.php(143): Magento\Framework\Model\AbstractModel->save()
+#58 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Catalog\Controller\Adminhtml\Product\Save->execute()
+#59 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->___callParent()
+#60 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->Magento\Framework\Interception\{closure}()
+#61 /var/www/magento2/generated/code/Magento/Catalog/Controller/Adminhtml/Product/Save/Interceptor.php(23): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->___callPlugins()
+#62 /var/www/magento2/vendor/magento/framework/App/Action/Action.php(111): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->execute()
+#63 /var/www/magento2/vendor/magento/module-backend/App/AbstractAction.php(151): Magento\Framework\App\Action\Action->dispatch()
+#64 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Backend\App\AbstractAction->dispatch()
+#65 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->___callParent()
+#66 /var/www/magento2/vendor/magento/module-backend/App/Action/Plugin/Authentication.php(145): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->Magento\Framework\Interception\{closure}()
+#67 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(135): Magento\Backend\App\Action\Plugin\Authentication->aroundDispatch()
+#68 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->Magento\Framework\Interception\{closure}()
+#69 /var/www/magento2/generated/code/Magento/Catalog/Controller/Adminhtml/Product/Save/Interceptor.php(32): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->___callPlugins()
+#70 /var/www/magento2/vendor/magento/framework/App/FrontController.php(245): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->dispatch()
+#71 /var/www/magento2/vendor/magento/framework/App/FrontController.php(212): Magento\Framework\App\FrontController->getActionResponse()
+#72 /var/www/magento2/vendor/magento/framework/App/FrontController.php(147): Magento\Framework\App\FrontController->processRequest()
+#73 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\App\FrontController->dispatch()
+#74 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\App\FrontController\Interceptor->___callParent()
+#75 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}()
+#76 /var/www/magento2/generated/code/Magento/Framework/App/FrontController/Interceptor.php(23): Magento\Framework\App\FrontController\Interceptor->___callPlugins()
+#77 /var/www/magento2/vendor/magento/framework/App/Http.php(116): Magento\Framework\App\FrontController\Interceptor->dispatch()
+#78 /var/www/magento2/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http->launch()
+#79 /var/www/magento2/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#80 {main}
+
+Next Magento\Framework\Exception\CouldNotSaveException: The stock item was unable to be saved. Please try again. in /var/www/magento2/vendor/magento/module-catalog-inventory/Model/Stock/StockItemRepository.php:196
+Stack trace:
+#0 /var/www/magento2/vendor/magento/module-catalog-inventory/Model/StockRegistry.php(181): Magento\CatalogInventory\Model\Stock\StockItemRepository->save()
+#1 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(58): Magento\CatalogInventory\Model\StockRegistry->updateStockItemBySku()
+#2 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(138): Magento\CatalogInventory\Model\StockRegistry\Interceptor->___callParent()
+#3 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(153): Magento\CatalogInventory\Model\StockRegistry\Interceptor->Magento\Framework\Interception\{closure}()
+#4 /var/www/magento2/generated/code/Magento/CatalogInventory/Model/StockRegistry/Interceptor.php(59): Magento\CatalogInventory\Model\StockRegistry\Interceptor->___callPlugins()
+#5 /var/www/magento2/vendor/magento/module-catalog-inventory/Observer/SaveInventoryDataObserver.php(125): Magento\CatalogInventory\Model\StockRegistry\Interceptor->updateStockItemBySku()
+#6 /var/www/magento2/vendor/magento/framework/Event/Invoker/InvokerDefault.php(88): Magento\CatalogInventory\Observer\SaveInventoryDataObserver->execute()
+#7 /var/www/magento2/vendor/magento/framework/Event/Invoker/InvokerDefault.php(74): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod()
+#8 /var/www/magento2/vendor/magento/framework/Event/Manager.php(65): Magento\Framework\Event\Invoker\InvokerDefault->dispatch()
+#9 /var/www/magento2/generated/code/Magento/Framework/Event/Manager/Proxy.php(95): Magento\Framework\Event\Manager->dispatch()
+#10 /var/www/magento2/vendor/magento/framework/Model/AbstractModel.php(837): Magento\Framework\Event\Manager\Proxy->dispatch()
+#11 /var/www/magento2/vendor/magento/module-catalog/Model/Product.php(985): Magento\Framework\Model\AbstractModel->afterSave()
+#12 /var/www/magento2/vendor/magento/framework/EntityManager/Observer/AfterEntitySave.php(34): Magento\Catalog\Model\Product->afterSave()
+#13 /var/www/magento2/vendor/magento/framework/Event/Invoker/InvokerDefault.php(88): Magento\Framework\EntityManager\Observer\AfterEntitySave->execute()
+#14 /var/www/magento2/vendor/magento/framework/Event/Invoker/InvokerDefault.php(74): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod()
+#15 /var/www/magento2/vendor/magento/framework/Event/Manager.php(65): Magento\Framework\Event\Invoker\InvokerDefault->dispatch()
+#16 /var/www/magento2/generated/code/Magento/Framework/Event/Manager/Proxy.php(95): Magento\Framework\Event\Manager->dispatch()
+#17 /var/www/magento2/vendor/magento/framework/EntityManager/EventManager.php(50): Magento\Framework\Event\Manager\Proxy->dispatch()
+#18 /var/www/magento2/vendor/magento/framework/EntityManager/Operation/Create.php(123): Magento\Framework\EntityManager\EventManager->dispatchEntityEvent()
+#19 /var/www/magento2/vendor/magento/framework/EntityManager/EntityManager.php(106): Magento\Framework\EntityManager\Operation\Create->execute()
+#20 /var/www/magento2/vendor/magento/module-catalog/Model/ResourceModel/Product.php(777): Magento\Framework\EntityManager\EntityManager->save()
+#21 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Catalog\Model\ResourceModel\Product->save()
+#22 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Catalog\Model\ResourceModel\Product\Interceptor->___callParent()
+#23 /var/www/magento2/vendor/magento/module-catalog-search/Model/Indexer/Fulltext/Plugin/Product.php(58): Magento\Catalog\Model\ResourceModel\Product\Interceptor->Magento\Framework\Interception\{closure}()
+#24 /var/www/magento2/vendor/magento/module-catalog-search/Model/Indexer/Fulltext/Plugin/Product.php(28): Magento\CatalogSearch\Model\Indexer\Fulltext\Plugin\Product->addCommitCallback()
+#25 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(135): Magento\CatalogSearch\Model\Indexer\Fulltext\Plugin\Product->aroundSave()
+#26 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Catalog\Model\ResourceModel\Product\Interceptor->Magento\Framework\Interception\{closure}()
+#27 /var/www/magento2/generated/code/Magento/Catalog/Model/ResourceModel/Product/Interceptor.php(32): Magento\Catalog\Model\ResourceModel\Product\Interceptor->___callPlugins()
+#28 /var/www/magento2/vendor/magento/framework/Model/AbstractModel.php(663): Magento\Catalog\Model\ResourceModel\Product\Interceptor->save()
+#29 /var/www/magento2/vendor/magento/module-catalog/Controller/Adminhtml/Product/Save.php(143): Magento\Framework\Model\AbstractModel->save()
+#30 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Catalog\Controller\Adminhtml\Product\Save->execute()
+#31 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->___callParent()
+#32 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->Magento\Framework\Interception\{closure}()
+#33 /var/www/magento2/generated/code/Magento/Catalog/Controller/Adminhtml/Product/Save/Interceptor.php(23): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->___callPlugins()
+#34 /var/www/magento2/vendor/magento/framework/App/Action/Action.php(111): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->execute()
+#35 /var/www/magento2/vendor/magento/module-backend/App/AbstractAction.php(151): Magento\Framework\App\Action\Action->dispatch()
+#36 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Backend\App\AbstractAction->dispatch()
+#37 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->___callParent()
+#38 /var/www/magento2/vendor/magento/module-backend/App/Action/Plugin/Authentication.php(145): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->Magento\Framework\Interception\{closure}()
+#39 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(135): Magento\Backend\App\Action\Plugin\Authentication->aroundDispatch()
+#40 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->Magento\Framework\Interception\{closure}()
+#41 /var/www/magento2/generated/code/Magento/Catalog/Controller/Adminhtml/Product/Save/Interceptor.php(32): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->___callPlugins()
+#42 /var/www/magento2/vendor/magento/framework/App/FrontController.php(245): Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->dispatch()
+#43 /var/www/magento2/vendor/magento/framework/App/FrontController.php(212): Magento\Framework\App\FrontController->getActionResponse()
+#44 /var/www/magento2/vendor/magento/framework/App/FrontController.php(147): Magento\Framework\App\FrontController->processRequest()
+#45 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\App\FrontController->dispatch()
+#46 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\App\FrontController\Interceptor->___callParent()
+#47 /var/www/magento2/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}()
+#48 /var/www/magento2/generated/code/Magento/Framework/App/FrontController/Interceptor.php(23): Magento\Framework\App\FrontController\Interceptor->___callPlugins()
+#49 /var/www/magento2/vendor/magento/framework/App/Http.php(116): Magento\Framework\App\FrontController\Interceptor->dispatch()
+#50 /var/www/magento2/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http->launch()
+#51 /var/www/magento2/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#52 {main} {"exception":"[object] (Magento\\Framework\\Exception\\CouldNotSaveException(code: 0): The stock item was unable to be saved. Please try again. at /var/www/magento2/vendor/magento/module-catalog-inventory/Model/Stock/StockItemRepository.php:196)
+[previous exception] [object] (Magento\\Framework\\Exception\\LocalizedException(code: 0): Could not ping search engine: No alive nodes found in your cluster at /var/www/magento2/vendor/magento/module-elasticsearch/Model/Adapter/Elasticsearch.php:196)"} []
+[2024-07-31T08:32:42.120398+00:00] main.CRITICAL: Exception message: The stock item was unable to be saved. Please try again.
+Trace: <pre>#1 Magento\CatalogInventory\Model\StockRegistry->updateStockItemBySku() called at [vendor/magento/framework/Interception/Interceptor.php:58]
+#2 Magento\CatalogInventory\Model\StockRegistry\Interceptor->___callParent() called at [vendor/magento/framework/Interception/Interceptor.php:138]
+#3 Magento\CatalogInventory\Model\StockRegistry\Interceptor->Magento\Framework\Interception\{closure}() called at [vendor/magento/framework/Interception/Interceptor.php:153]
+#4 Magento\CatalogInventory\Model\StockRegistry\Interceptor->___callPlugins() called at [generated/code/Magento/CatalogInventory/Model/StockRegistry/Interceptor.php:59]
+#5 Magento\CatalogInventory\Model\StockRegistry\Interceptor->updateStockItemBySku() called at [vendor/magento/module-catalog-inventory/Observer/SaveInventoryDataObserver.php:125]
+#6 Magento\CatalogInventory\Observer\SaveInventoryDataObserver->execute() called at [vendor/magento/framework/Event/Invoker/InvokerDefault.php:88]
+#7 Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod() called at [vendor/magento/framework/Event/Invoker/InvokerDefault.php:74]
+#8 Magento\Framework\Event\Invoker\InvokerDefault->dispatch() called at [vendor/magento/framework/Event/Manager.php:65]
+#9 Magento\Framework\Event\Manager->dispatch() called at [generated/code/Magento/Framework/Event/Manager/Proxy.php:95]
+#10 Magento\Framework\Event\Manager\Proxy->dispatch() called at [vendor/magento/framework/Model/AbstractModel.php:837]
+#11 Magento\Framework\Model\AbstractModel->afterSave() called at [vendor/magento/module-catalog/Model/Product.php:985]
+#12 Magento\Catalog\Model\Product->afterSave() called at [vendor/magento/framework/EntityManager/Observer/AfterEntitySave.php:34]
+#13 Magento\Framework\EntityManager\Observer\AfterEntitySave->execute() called at [vendor/magento/framework/Event/Invoker/InvokerDefault.php:88]
+#14 Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod() called at [vendor/magento/framework/Event/Invoker/InvokerDefault.php:74]
+#15 Magento\Framework\Event\Invoker\InvokerDefault->dispatch() called at [vendor/magento/framework/Event/Manager.php:65]
+#16 Magento\Framework\Event\Manager->dispatch() called at [generated/code/Magento/Framework/Event/Manager/Proxy.php:95]
+#17 Magento\Framework\Event\Manager\Proxy->dispatch() called at [vendor/magento/framework/EntityManager/EventManager.php:50]
+#18 Magento\Framework\EntityManager\EventManager->dispatchEntityEvent() called at [vendor/magento/framework/EntityManager/Operation/Create.php:123]
+#19 Magento\Framework\EntityManager\Operation\Create->execute() called at [vendor/magento/framework/EntityManager/EntityManager.php:106]
+#20 Magento\Framework\EntityManager\EntityManager->save() called at [vendor/magento/module-catalog/Model/ResourceModel/Product.php:777]
+#21 Magento\Catalog\Model\ResourceModel\Product->save() called at [vendor/magento/framework/Interception/Interceptor.php:58]
+#22 Magento\Catalog\Model\ResourceModel\Product\Interceptor->___callParent() called at [vendor/magento/framework/Interception/Interceptor.php:138]
+#23 Magento\Catalog\Model\ResourceModel\Product\Interceptor->Magento\Framework\Interception\{closure}() called at [vendor/magento/module-catalog-search/Model/Indexer/Fulltext/Plugin/Product.php:58]
+#24 Magento\CatalogSearch\Model\Indexer\Fulltext\Plugin\Product->addCommitCallback() called at [vendor/magento/module-catalog-search/Model/Indexer/Fulltext/Plugin/Product.php:28]
+#25 Magento\CatalogSearch\Model\Indexer\Fulltext\Plugin\Product->aroundSave() called at [vendor/magento/framework/Interception/Interceptor.php:135]
+#26 Magento\Catalog\Model\ResourceModel\Product\Interceptor->Magento\Framework\Interception\{closure}() called at [vendor/magento/framework/Interception/Interceptor.php:153]
+#27 Magento\Catalog\Model\ResourceModel\Product\Interceptor->___callPlugins() called at [generated/code/Magento/Catalog/Model/ResourceModel/Product/Interceptor.php:32]
+#28 Magento\Catalog\Model\ResourceModel\Product\Interceptor->save() called at [vendor/magento/framework/Model/AbstractModel.php:663]
+#29 Magento\Framework\Model\AbstractModel->save() called at [vendor/magento/module-catalog/Controller/Adminhtml/Product/Save.php:143]
+#30 Magento\Catalog\Controller\Adminhtml\Product\Save->execute() called at [vendor/magento/framework/Interception/Interceptor.php:58]
+#31 Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->___callParent() called at [vendor/magento/framework/Interception/Interceptor.php:138]
+#32 Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->Magento\Framework\Interception\{closure}() called at [vendor/magento/framework/Interception/Interceptor.php:153]
+#33 Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->___callPlugins() called at [generated/code/Magento/Catalog/Controller/Adminhtml/Product/Save/Interceptor.php:23]
+#34 Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->execute() called at [vendor/magento/framework/App/Action/Action.php:111]
+#35 Magento\Framework\App\Action\Action->dispatch() called at [vendor/magento/module-backend/App/AbstractAction.php:151]
+#36 Magento\Backend\App\AbstractAction->dispatch() called at [vendor/magento/framework/Interception/Interceptor.php:58]
+#37 Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->___callParent() called at [vendor/magento/framework/Interception/Interceptor.php:138]
+#38 Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->Magento\Framework\Interception\{closure}() called at [vendor/magento/module-backend/App/Action/Plugin/Authentication.php:145]
+#39 Magento\Backend\App\Action\Plugin\Authentication->aroundDispatch() called at [vendor/magento/framework/Interception/Interceptor.php:135]
+#40 Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->Magento\Framework\Interception\{closure}() called at [vendor/magento/framework/Interception/Interceptor.php:153]
+#41 Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->___callPlugins() called at [generated/code/Magento/Catalog/Controller/Adminhtml/Product/Save/Interceptor.php:32]
+#42 Magento\Catalog\Controller\Adminhtml\Product\Save\Interceptor->dispatch() called at [vendor/magento/framework/App/FrontController.php:245]
+#43 Magento\Framework\App\FrontController->getActionResponse() called at [vendor/magento/framework/App/FrontController.php:212]
+#44 Magento\Framework\App\FrontController->processRequest() called at [vendor/magento/framework/App/FrontController.php:147]
+#45 Magento\Framework\App\FrontController->dispatch() called at [vendor/magento/framework/Interception/Interceptor.php:58]
+#46 Magento\Framework\App\FrontController\Interceptor->___callParent() called at [vendor/magento/framework/Interception/Interceptor.php:138]
+#47 Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}() called at [vendor/magento/framework/Interception/Interceptor.php:153]
+#48 Magento\Framework\App\FrontController\Interceptor->___callPlugins() called at [generated/code/Magento/Framework/App/FrontController/Interceptor.php:23]
+#49 Magento\Framework\App\FrontController\Interceptor->dispatch() called at [vendor/magento/framework/App/Http.php:116]
+#50 Magento\Framework\App\Http->launch() called at [vendor/magento/framework/App/Bootstrap.php:264]
+#51 Magento\Framework\App\Bootstrap->run() called at [pub/index.php:30]
+</pre> [] []
+[2024-07-31T08:32:42.269159+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
+[2024-07-31T08:32:42.270480+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []

@@ -1,6 +1,6 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1722331717;s:6:"expire";i:1722335317;s:4:"tags";s:23:"a6b_BLOCK_HTML,a6b_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1722414360;s:6:"expire";i:1722417960;s:4:"tags";s:23:"a6b_BLOCK_HTML,a6b_MAGE";}
 <nav
-    x-data="initMenuMobile_66a8b24596de3()"
+    x-data="initMenuMobile_66a9f518abd44()"
     @load.window="setActiveMenu($root)"
     @keydown.window.escape="closeMenu()"
     class="z-20 order-2 sm:order-1 lg:order-2 navigation lg:hidden w-12 h-12"
@@ -54,7 +54,7 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1722331717;s:6:"expire";i:1722335317;s:4:"t
 <script>
     'use strict';
 
-    const initMenuMobile_66a8b24596de3 = () => {
+    const initMenuMobile_66a9f518abd44 = () => {
         return {
             mobilePanelActiveId: null,
             open: false,
@@ -99,7 +99,7 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1722331717;s:6:"expire";i:1722335317;s:4:"t
         }
     }
 </script>
-<div x-data="initMenuDesktop_66a8b2459e0bb()"
+<div x-data="initMenuDesktop_66a9f518bdbc7()"
      class="z-20 order-2 sm:order-1 lg:order-2 navigation hidden lg:flex"
 >
     <!-- desktop -->
@@ -118,7 +118,7 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1722331717;s:6:"expire";i:1722335317;s:4:"t
 <script>
     'use strict';
 
-    const initMenuDesktop_66a8b2459e0bb = () => {
+    const initMenuDesktop_66a9f518bdbc7 = () => {
         return {
             hoverPanelActiveId: null,
             setActiveMenu(menuNode) {

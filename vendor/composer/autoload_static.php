@@ -74,8 +74,8 @@ class ComposerStaticInita19a77ba3332045aff92115302867d1a
         '4725125cbaeab31cd4e5c5c07061fa43' => __DIR__ . '/..' . '/magento/module-payment/registration.php',
         '73a8e4290482dda77755fd5545cb64f4' => __DIR__ . '/..' . '/magento/module-webapi/registration.php',
         '00763573ac2716ffacc7362cf99e8560' => __DIR__ . '/..' . '/magento/module-new-relic-reporting/registration.php',
-        '7d65523658f618d8d26b8219ea46bbd7' => __DIR__ . '/..' . '/magento/module-indexer/registration.php',
         '769c181872a21948ea52b3603a26a64a' => __DIR__ . '/..' . '/magento/module-graph-ql/registration.php',
+        '7d65523658f618d8d26b8219ea46bbd7' => __DIR__ . '/..' . '/magento/module-indexer/registration.php',
         'fc5563a6d8ed33909f8031d05dec9433' => __DIR__ . '/..' . '/magento/module-catalog-search/registration.php',
         '22b78ee29fd052ffce7e15e9173179f9' => __DIR__ . '/..' . '/magento/module-inventory-source-selection-api/registration.php',
         'ee281e56c294b104ff80ee675f29f7ac' => __DIR__ . '/..' . '/magento/module-re-captcha-ui/registration.php',
@@ -88,8 +88,8 @@ class ComposerStaticInita19a77ba3332045aff92115302867d1a
         '59f72ba1d3bbb4abbbf6ef3ac8336598' => __DIR__ . '/..' . '/magento/module-inventory-multi-dimensional-indexer-api/registration.php',
         '55aca85371db847a036438dc47c5adf7' => __DIR__ . '/..' . '/magento/module-sales-inventory/registration.php',
         '4f7270b5e871e70f478355bf0393e1be' => __DIR__ . '/..' . '/magento/module-inventory-sales/registration.php',
-        '157e241791c95df2d41c00e4314f115e' => __DIR__ . '/..' . '/magento/module-search/registration.php',
         'aefa4ea9e2005b6976253d7b9a177c84' => __DIR__ . '/..' . '/magento/module-inventory-indexer/registration.php',
+        '157e241791c95df2d41c00e4314f115e' => __DIR__ . '/..' . '/magento/module-search/registration.php',
         'a09428fb5202148efdc033b11ca2bc1c' => __DIR__ . '/..' . '/magento/module-rule/registration.php',
         '08592fdd5b9e829727a7db2f953d82b2' => __DIR__ . '/..' . '/magento/module-vault/registration.php',
         'bb6621289f135d14ac7bffe9e45ad6ef' => __DIR__ . '/..' . '/magento/module-catalog-import-export/registration.php',
@@ -101,9 +101,9 @@ class ComposerStaticInita19a77ba3332045aff92115302867d1a
         '24095738ccbb9fc915174b272ef16432' => __DIR__ . '/..' . '/magento/module-graph-ql-cache/registration.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
-        'ce905cb44f14ec283a2ba1c12e6f8420' => __DIR__ . '/..' . '/magento/module-advanced-search/registration.php',
         '1873ae6446634b40bf25026005067303' => __DIR__ . '/..' . '/magento/module-re-captcha-frontend-ui/registration.php',
         '2f522cf385c971ad85c792b852e13d71' => __DIR__ . '/..' . '/magento/module-customer-graph-ql/registration.php',
+        'ce905cb44f14ec283a2ba1c12e6f8420' => __DIR__ . '/..' . '/magento/module-advanced-search/registration.php',
         'cf44f9b1253939f955772534aabbf624' => __DIR__ . '/..' . '/magento/module-grouped-product/registration.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         'e4f13915c73bde5cfe1ad991a2c05d62' => __DIR__ . '/..' . '/magento/module-media-content-api/registration.php',
@@ -140,7 +140,6 @@ class ComposerStaticInita19a77ba3332045aff92115302867d1a
         '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
         '8a9dc1de0ca7e01f3e08231539562f61' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/functions.php',
         'e3b2795a8a512b6083af088fb53afe6c' => __DIR__ . '/..' . '/codeception/codeception/functions.php',
-        '8592c7b0947d8a0965a9e8c3d16f9c24' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/autoload.php',
         '9d3c0cffdf7ae2ab7dc3179a4aeef794' => __DIR__ . '/..' . '/magento/module-checkout-agreements/registration.php',
         'b2a251005c112dee4a8e7f7580a475f5' => __DIR__ . '/..' . '/magento/module-cookie/registration.php',
         '069005ffe7b4e7c23b0b9b5c1807ec74' => __DIR__ . '/..' . '/magento/module-paypal/registration.php',
@@ -249,7 +248,6 @@ class ComposerStaticInita19a77ba3332045aff92115302867d1a
         '7262a266e3433bc7d1f53ddcb1dab374' => __DIR__ . '/..' . '/magento/module-multishipping/registration.php',
         '5cf85b36784d8983386f13c5ce966b3f' => __DIR__ . '/..' . '/magento/module-cms-graph-ql/registration.php',
         '4a78493fd48e24e9ec5cd7b77605aa2f' => __DIR__ . '/..' . '/magento/module-developer/registration.php',
-        'cd2159b9f3fc8d4bd4379be89ab8d44d' => __DIR__ . '/..' . '/magento/module-elasticsearch/registration.php',
         'ff9dfb2d428b9c0dc45f907b7623eb97' => __DIR__ . '/..' . '/magento/module-inventory-catalog-frontend-ui/registration.php',
         '0f2f8b2e42f23e9d1a7db1f3bd7eb6a4' => __DIR__ . '/..' . '/magento/module-inventory-export-stock-api/registration.php',
         '0200e6e85f35cccb38c49338c296a5cd' => __DIR__ . '/..' . '/magento/module-inventory-in-store-pickup-quote/registration.php',
@@ -262,6 +260,7 @@ class ComposerStaticInita19a77ba3332045aff92115302867d1a
         '71dc2695e085cd08c5c05443ffbe009b' => __DIR__ . '/..' . '/magento/module-url-rewrite-graph-ql/registration.php',
         '07684b53e004b1beb749e8fbbdaf6247' => __DIR__ . '/..' . '/paypal/module-braintree-core/registration.php',
         '3f7befdb3fd10d6e2a914b0320605b6e' => __DIR__ . '/..' . '/magento/module-bundle-import-export/registration.php',
+        'cd2159b9f3fc8d4bd4379be89ab8d44d' => __DIR__ . '/..' . '/magento/module-elasticsearch/registration.php',
         '2ddc4473bbdcd41a59f431c47412cae7' => __DIR__ . '/..' . '/magento/module-media-gallery/registration.php',
         '668a338ed27950eb02c3ab30da6a3530' => __DIR__ . '/..' . '/magento/module-media-gallery-ui/registration.php',
         '3109cb1a231dcd04bee1f9f620d46975' => __DIR__ . '/..' . '/paragonie/sodium_compat/autoload.php',
@@ -418,7 +417,6 @@ class ComposerStaticInita19a77ba3332045aff92115302867d1a
         '47546b4f1b5b418f412a8c6aae7f334c' => __DIR__ . '/..' . '/magento/module-customer-import-export/registration.php',
         '90d8feaaecfb5573d71fc9e9c623eaf3' => __DIR__ . '/..' . '/magento/module-dhl/registration.php',
         '83dfbba65af29c708fb3b3c532be9f1c' => __DIR__ . '/..' . '/magento/module-downloadable-import-export/registration.php',
-        '17fbab48e109f4d6e1338ffcd7698885' => __DIR__ . '/..' . '/magento/module-elasticsearch-7/registration.php',
         'e3c0afcb4c0d7f0a4d03bc25de2dfac5' => __DIR__ . '/..' . '/magento/module-encryption-key/registration.php',
         '3f1ec44a3b4c21f3f183ad63d9fe5fb0' => __DIR__ . '/..' . '/magento/module-fedex/registration.php',
         '2468de8c3e526e274de3ffca614cedf7' => __DIR__ . '/..' . '/magento/module-gift-message-graph-ql/registration.php',
@@ -501,6 +499,7 @@ class ComposerStaticInita19a77ba3332045aff92115302867d1a
         'ec4e26a849a74187b9964eff48cd966a' => __DIR__ . '/..' . '/hyva-themes/magento2-default-theme/registration.php',
         '2aabf2101650af94bd73f390cdc2ca28' => __DIR__ . '/..' . '/hyva-themes/magento2-theme-fallback/src/registration.php',
         'eda65932675b68b5aee4503e0762d64d' => __DIR__ . '/..' . '/magento/magento2-functional-testing-framework/src/Magento/FunctionalTestingFramework/_bootstrap.php',
+        'c559d586f028db85586fdecf4a031fb6' => __DIR__ . '/..' . '/magento/module-elasticsearch-8/registration.php',
         'b4cf39431a4b949eea8aa69ebb3d39da' => __DIR__ . '/../..' . '/app/etc/NonComposerComponentRegistration.php',
     );
 
@@ -875,7 +874,7 @@ class ComposerStaticInita19a77ba3332045aff92115302867d1a
             'Magento\\EncryptionKey\\' => 22,
             'Magento\\Email\\' => 14,
             'Magento\\Elasticsearch\\' => 22,
-            'Magento\\Elasticsearch7\\' => 23,
+            'Magento\\Elasticsearch8\\' => 23,
             'Magento\\Eav\\' => 12,
             'Magento\\EavGraphQl\\' => 19,
             'Magento\\Downloadable\\' => 21,
@@ -1022,6 +1021,9 @@ class ComposerStaticInita19a77ba3332045aff92115302867d1a
             'Hyva\\GraphqlViewModel\\' => 22,
             'Hyva\\GraphqlTokens\\' => 19,
             'Hyva\\Email\\' => 11,
+            'Http\\Promise\\' => 13,
+            'Http\\Discovery\\' => 15,
+            'Http\\Client\\' => 12,
         ),
         'G' => 
         array (
@@ -1043,7 +1045,8 @@ class ComposerStaticInita19a77ba3332045aff92115302867d1a
         array (
             'Evenement\\' => 10,
             'Endroid\\QrCode\\' => 15,
-            'Elasticsearch\\' => 14,
+            'Elastic\\Transport\\' => 18,
+            'Elastic\\Elasticsearch\\' => 22,
         ),
         'D' => 
         array (
@@ -2429,9 +2432,9 @@ class ComposerStaticInita19a77ba3332045aff92115302867d1a
         array (
             0 => __DIR__ . '/..' . '/magento/module-elasticsearch',
         ),
-        'Magento\\Elasticsearch7\\' => 
+        'Magento\\Elasticsearch8\\' => 
         array (
-            0 => __DIR__ . '/..' . '/magento/module-elasticsearch-7',
+            0 => __DIR__ . '/..' . '/magento/module-elasticsearch-8',
         ),
         'Magento\\Eav\\' => 
         array (
@@ -2982,6 +2985,18 @@ class ComposerStaticInita19a77ba3332045aff92115302867d1a
         array (
             0 => __DIR__ . '/..' . '/hyva-themes/magento2-email-module/src',
         ),
+        'Http\\Promise\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-http/promise/src',
+        ),
+        'Http\\Discovery\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-http/discovery/src',
+        ),
+        'Http\\Client\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-http/httplug/src',
+        ),
         'GuzzleHttp\\Stream\\' => 
         array (
             0 => __DIR__ . '/..' . '/ezimuel/guzzlestreams/src',
@@ -3030,9 +3045,13 @@ class ComposerStaticInita19a77ba3332045aff92115302867d1a
         array (
             0 => __DIR__ . '/..' . '/endroid/qr-code/src',
         ),
-        'Elasticsearch\\' => 
+        'Elastic\\Transport\\' => 
         array (
-            0 => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch',
+            0 => __DIR__ . '/..' . '/elastic/transport/src',
+        ),
+        'Elastic\\Elasticsearch\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src',
         ),
         'Doctrine\\Instantiator\\' => 
         array (

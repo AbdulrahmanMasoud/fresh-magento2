@@ -74,9 +74,9 @@
             'dev_requirement' => false,
         ),
         'aws/aws-sdk-php' => array(
-            'pretty_version' => '3.316.3',
-            'version' => '3.316.3.0',
-            'reference' => 'e832e594b3c213760e067e15ef2739f77505e832',
+            'pretty_version' => '3.316.10',
+            'version' => '3.316.10.0',
+            'reference' => 'eeb8df6ff6caa428e8bcd631ad2a96430900a249',
             'type' => 'library',
             'install_path' => __DIR__ . '/../aws/aws-sdk-php',
             'aliases' => array(),
@@ -427,10 +427,19 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'elastic/transport' => array(
+            'pretty_version' => 'v8.8.0',
+            'version' => '8.8.0.0',
+            'reference' => 'cdf9f63a16ec6bfb4c881ab89aa0e2a61fb7c20b',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../elastic/transport',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'elasticsearch/elasticsearch' => array(
-            'pretty_version' => 'v7.17.2',
-            'version' => '7.17.2.0',
-            'reference' => '2d302233f2bb0926812d82823bb820d405e130fc',
+            'pretty_version' => 'v8.5.3',
+            'version' => '8.5.3.0',
+            'reference' => '9d850932b8ab8129fd4baf597a1172e8f583b436',
             'type' => 'library',
             'install_path' => __DIR__ . '/../elasticsearch/elasticsearch',
             'aliases' => array(),
@@ -926,9 +935,9 @@
             'dev_requirement' => false,
         ),
         'laminas/laminas-validator' => array(
-            'pretty_version' => '2.62.0',
-            'version' => '2.62.0.0',
-            'reference' => '83fbcf4a7986796261beb541bed09c06826446e9',
+            'pretty_version' => '2.63.0',
+            'version' => '2.63.0.0',
+            'reference' => 'ae4727c87825940be3f154101bffb80d8e0fa99a',
             'type' => 'library',
             'install_path' => __DIR__ . '/../laminas/laminas-validator',
             'aliases' => array(),
@@ -1913,11 +1922,17 @@
             'dev_requirement' => false,
         ),
         'magento/module-elasticsearch-7' => array(
-            'pretty_version' => '100.4.6',
-            'version' => '100.4.6.0',
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '*',
+            ),
+        ),
+        'magento/module-elasticsearch-8' => array(
+            'pretty_version' => '100.4.1',
+            'version' => '100.4.1.0',
             'reference' => NULL,
             'type' => 'magento2-module',
-            'install_path' => __DIR__ . '/../magento/module-elasticsearch-7',
+            'install_path' => __DIR__ . '/../magento/module-elasticsearch-8',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -4408,6 +4423,33 @@
                 0 => '*',
             ),
         ),
+        'php-http/discovery' => array(
+            'pretty_version' => '1.19.4',
+            'version' => '1.19.4.0',
+            'reference' => '0700efda8d7526335132360167315fdab3aeb599',
+            'type' => 'composer-plugin',
+            'install_path' => __DIR__ . '/../php-http/discovery',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'php-http/httplug' => array(
+            'pretty_version' => '2.4.0',
+            'version' => '2.4.0.0',
+            'reference' => '625ad742c360c8ac580fcc647a1541d29e257f67',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../php-http/httplug',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'php-http/promise' => array(
+            'pretty_version' => '1.3.1',
+            'version' => '1.3.1.0',
+            'reference' => 'fc85b1fba37c169a69a07ef0d5a8075770cc1f83',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../php-http/promise',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'php-webdriver/webdriver' => array(
             'pretty_version' => '1.13.1',
             'version' => '1.13.1.0',
@@ -4602,6 +4644,7 @@
             'dev_requirement' => false,
             'provided' => array(
                 0 => '1.0',
+                1 => '*',
             ),
         ),
         'psr/http-factory' => array(
@@ -4617,6 +4660,7 @@
             'dev_requirement' => false,
             'provided' => array(
                 0 => '1.0',
+                1 => '*',
             ),
         ),
         'psr/http-message' => array(
@@ -4632,6 +4676,7 @@
             'dev_requirement' => false,
             'provided' => array(
                 0 => '1.0',
+                1 => '*',
             ),
         ),
         'psr/log' => array(
